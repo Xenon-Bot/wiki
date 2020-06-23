@@ -2,8 +2,8 @@
 title: Terms Of Service
 description: The following applies to usage of the Xenon (including the premium versions) Discord bot: (referred to as "Xenon")
 published: true
-date: 2020-06-23T12:00:05.263Z
-tags: xenon, info
+date: 2020-06-23T12:06:29.576Z
+tags: info, xenon
 editor: markdown
 ---
 
