@@ -2,7 +2,7 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2020-06-23T13:25:06.013Z
+date: 2020-06-23T13:29:06.268Z
 tags: info, xenon, premium
 editor: markdown
 ---
@@ -23,7 +23,7 @@ Xenon and Xenon Premium share the same database. That means backups from Xenon c
 You can find a detailed list of tiers and perks below.
 
 # Xenon Tiers
-<table style="width:100%; text-align:center">
+<table style="width:75%; text-align:center; margin-left:auto;margin-right:auto;">
 <thead>
   <tr>
     <th></th>
