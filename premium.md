@@ -2,7 +2,7 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2020-06-23T12:58:31.594Z
+date: 2020-06-23T13:25:06.013Z
 tags: info, xenon, premium
 editor: markdown
 ---
@@ -23,14 +23,75 @@ Xenon and Xenon Premium share the same database. That means backups from Xenon c
 You can find a detailed list of tiers and perks below.
 
 # Xenon Tiers
-
-|                    |    Xenon   |   Premium 1   |   Premium 2   |    Premium 3   |
-|:------------------:|:----------:|:-------------:|:-------------:|:--------------:|
-|        Price       |    free    | 4.99$ / month | 9.99$ / month | 14.99$ / month |
-|     Max Backups    |     25     |       50      |      100      |       250      |
-|    Min Interval    |     24h    |      12h      |       8h      |       4h       |
-|  Interval Backups  | 1 / server |   2 / server  |   4 / server  |   8 / server   |
-|   Backup Messages  |      0     |  50 / channel | 100 / channel |  250 / channel |
-|  Chatlog messages  |      0     |      250      |      500      |      1000      |
-|    Max Chatlogs    |      0     |       25      |       50      |       100      |
-| Message & Ban Sync |     no     |      yes      |      yes      |       yes      |
+<table style="width:100%; text-align:center">
+<thead>
+  <tr>
+    <th></th>
+    <th>Xenon</th>
+    <th>Premium 1</th>
+    <th>Premium 2</th>
+    <th>Premium 3</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Price</td>
+    <td>free</td>
+    <td>4.99$ / month</td>
+    <td>9.99$ / month</td>
+    <td>14.99$ / month</td>
+  </tr>
+  <tr>
+    <td>Max Backups</td>
+    <td>25</td>
+    <td>50</td>
+    <td>100</td>
+    <td>250</td>
+  </tr>
+  <tr>
+    <td>Min Interval</td>
+    <td>24h</td>
+    <td>12h</td>
+    <td>8h</td>
+    <td>4h</td>
+  </tr>
+  <tr>
+    <td>Interval Backups</td>
+    <td>1 / server</td>
+    <td>2 / server</td>
+    <td>4 / server</td>
+    <td>8 / server</td>
+  </tr>
+  <tr>
+    <td>Backup Messages</td>
+    <td>0</td>
+    <td>50 / channel</td>
+    <td>100 / channel</td>
+    <td>250 / channel</td>
+  </tr>
+  <tr>
+    <td>Chatlog messages</td>
+    <td>0</td>
+    <td>250</td>
+    <td>500</td>
+    <td>1000</td>
+  </tr>
+  <tr>
+    <td>Max Chatlogs</td>
+    <td>0</td>
+    <td>25</td>
+    <td>50</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>Message &amp; Ban Sync</td>
+    <td>no</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+  </tr>
+</tbody>
+</table>
+<div style="text-align:center">
+  <sub>Prices do not include tax</sub>
+</div>
