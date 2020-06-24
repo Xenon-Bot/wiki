@@ -2,7 +2,7 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2020-06-24T14:40:55.477Z
+date: 2020-06-24T14:51:31.046Z
 tags: xenon, support
 editor: markdown
 ---
@@ -20,14 +20,59 @@ Create a backup of your discord. After the bot created the backup, it will tell 
 ## Arguments
 
 # Tabs {.tabset}
-## First Tab
+## Chatlog
 
-Any content here will go into the first tab...
+The count of messages to save per channel
 
-## Second Tab
+Only available for [premium](/premium) users!
 
-Any content here will go into the second tab...
+`max: 0 / 25 / 100 / 250` `default: 0` `optional`
 
-## Third Tab
+# Loading a backup
+Load a backup. You obviously need to create backup before you can use this command.
 
-Any content here will go into the third tab...
+You can find a list of your backups with `x!backup list`.
+
+> Loading a backup replaces all channels and roles in the discord. It does not kick the members.
+{.is-danger}
+
+## Syntax
+
+`x!backup load <backup-id> [chatlog] [options...]`
+
+## Arguments
+
+# Tabs {.tabset}
+## backup-id
+
+The id of the backup you want to load. You get this after creating a backup.
+
+You can also use the guild id to load the latest automated backup. 
+
+`required`
+
+## chatlog
+
+The count of messages to load per channel 
+
+Only available for [premium](/premium) users!
+
+`max: 0 / 25 / 100 / 250` `default: 0` `optional`
+
+## options
+
+A list of arguments, separated by a space. Putting a ! in front of the argument disables the option.
+
+`*` enables all
+
+`!*` disables all
+
+**Valid Arguments**: `members channels roles bans settings`
+
+**Example**: `x!backup load <backup-id> !* roles will only load roles`
+
+`optional` `default: members channels roles bans settings`
+
+
+> This page is NOT complete yet.
+{.is-danger}
