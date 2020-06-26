@@ -2,7 +2,7 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2020-06-24T16:10:44.987Z
+date: 2020-06-26T15:55:57.404Z
 tags: xenon, support
 editor: markdown
 ---
@@ -84,3 +84,62 @@ A list of arguments, separated by a space. Putting a ! in front of the argument 
 **Example**: `x!backup load <backup-id> !* roles will only load roles`
 
 `optional` `default: members channels roles bans settings`
+
+<br />
+
+# Deleting a backup
+
+You obviously need to create backup before you can use this command.
+
+You can find a list of your backups with `x!backup list`.
+
+> Deleting a backup is irreversible! Be careful with this command.
+{.is-danger}
+
+<br />
+
+## Syntax
+
+`x!backup delete <backup-id>`
+
+<br />
+
+## Arguments
+
+# Tabs {.tabset}
+## backup-id
+
+The id of the backup you want to delete. You get this after creating a backup.
+
+You can also use the guild id to delete the latest automated backup. 
+
+`required`
+
+<br />
+
+# Automated Backups / Interval
+
+The bot creates a backup of your guild in a certain interval. It overrides the old one every time it creates a new one. 
+
+To load a automated backup you can use `x!backup load interval` to load the last automated backup from the current guild or `x!backup load <guild_id>` to load the last automated backup from an other guild.
+
+## Syntax
+
+`x!backup interval <interval...> [chatlog]`
+
+## Arguments
+
+# Tabs {.tabset}
+## interval
+
+The id of the backup you want to delete. You get this after creating a backup.
+
+You can also use the guild id to delete the latest automated backup. 
+
+## chatlog
+
+The count of messages to load per channel 
+
+Only available for [premium](/premium) users!
+
+`max: 0 / 25 / 100 / 250` `default: 0` `optional`
