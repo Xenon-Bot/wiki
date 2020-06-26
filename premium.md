@@ -2,16 +2,13 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2020-06-24T16:09:01.217Z
+date: 2020-06-26T15:57:33.086Z
 tags: info, xenon, premium
 editor: markdown
 ---
 
 > You might see max and default values seperated by slash, indicating that the values are different for xenon / premium 1 / premium 2 / premium 3 in some command description.
 {.is-info}
-
-<br />
-
 # Xenon
 Xenon is the base version of the bot and is free for everyone. It has the most essential features to back up your server and server templates. If you want to save messages or sync information between multiple servers and channels, take a look at Xenon Premium.
 
