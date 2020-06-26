@@ -2,7 +2,7 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2020-06-26T15:55:57.404Z
+date: 2020-06-26T15:56:59.800Z
 tags: xenon, support
 editor: markdown
 ---
@@ -71,6 +71,8 @@ Only available for [premium](/premium) users!
 
 `max: 0 / 25 / 100 / 250` `default: 0` `optional`
 
+<br />
+
 ## options
 
 A list of arguments, separated by a space. Putting a ! in front of the argument disables the option.
@@ -136,6 +138,8 @@ The id of the backup you want to delete. You get this after creating a backup.
 
 You can also use the guild id to delete the latest automated backup. 
 
+<br />
+
 ## chatlog
 
 The count of messages to load per channel 
@@ -143,3 +147,5 @@ The count of messages to load per channel
 Only available for [premium](/premium) users!
 
 `max: 0 / 25 / 100 / 250` `default: 0` `optional`
+
+<br />
