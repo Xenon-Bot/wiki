@@ -2,7 +2,7 @@
 title: Templates
 description: Xenon gives you access to hundreds of free templates. In contrast to backups, templates are public and can be used by everyone.
 published: true
-date: 2020-06-26T16:25:21.365Z
+date: 2020-06-28T13:50:14.075Z
 tags: xenon, support
 editor: markdown
 ---
@@ -54,9 +54,6 @@ Head over to the server you want to create a template of, go to your server sett
 
 > Quick reminder that all templates are public! Do not share share private information in templates.
 {.is-danger}
-
-<br />
-
 
 ## Adding to Xenon's template list
 
