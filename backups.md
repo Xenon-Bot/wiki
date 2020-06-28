@@ -2,7 +2,7 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2020-06-28T14:11:01.969Z
+date: 2020-06-28T14:11:24.777Z
 tags: xenon, support
 editor: markdown
 ---
@@ -113,6 +113,8 @@ You obviously need at least one backup to use this command. This will irreversib
 ## Syntax
 
 `x!backup purge`
+
+<br />
 
 # Automated Backups / Interval
 
