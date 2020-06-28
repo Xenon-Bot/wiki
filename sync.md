@@ -2,15 +2,13 @@
 title: Sync
 description: Sync messages between different channels and bans between different servers. It's possible to sync in one direction or in both.
 published: true
-date: 2020-06-28T13:46:53.625Z
+date: 2020-06-28T13:47:34.969Z
 tags: xenon, premium, support
 editor: markdown
 ---
 
 > All sync commands are only available for premium users.
 {.is-info}
-
-<br />
 
 # Creating a message sync
 Create a message sync between two channels in one or two directions. You can find a list of your syncs with `x?sync list`
