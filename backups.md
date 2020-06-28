@@ -2,7 +2,7 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2020-06-26T16:02:18.649Z
+date: 2020-06-28T14:11:01.969Z
 tags: xenon, support
 editor: markdown
 ---
@@ -102,6 +102,17 @@ You can also use the guild id to delete the latest automated backup.
 `required`
 
 <br />
+
+# Deleting all backups
+
+You obviously need at least one backup to use this command. This will irreversibly delete **all** of the backups created under your account.
+
+> Deleting all of your backups is irreversible! Be careful with this command.
+{.is-danger}
+
+## Syntax
+
+`x!backup purge`
 
 # Automated Backups / Interval
 
