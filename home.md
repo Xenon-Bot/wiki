@@ -2,14 +2,10 @@
 title: Welcome!
 description: Welcome to the official documentation of Xenon!
 published: true
-date: 2020-06-24T16:06:02.719Z
+date: 2020-06-28T13:48:42.275Z
 tags: info
 editor: markdown
 ---
-
-> This wiki is a work in progress, not all links will work yet. Please use the [original](https://docs.xenon.bot/) page for now.
-{.is-danger}
-
 
 # Intro
 The bot Xenon is based around the idea of creating & loading backups of your discord. Create backups of your channels, roles, permissions and messages (only with the Xenon Premium) and share them with other people. Just invite the bot and start now.
