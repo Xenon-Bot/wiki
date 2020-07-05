@@ -2,7 +2,7 @@
 title: FAQ
 description: Frequently asked questions about Xenon.
 published: true
-date: 2020-07-05T15:32:48.428Z
+date: 2020-07-05T15:46:44.887Z
 tags: info, xenon, support
 editor: markdown
 ---
@@ -51,7 +51,7 @@ Do x!backup create, you will then be messaged a backup ID which you can use to r
 
 ## How can I load / create a template?
 
-You can find templates at [templates.xenon.bot](https://templates.xenon.bot).
+You can find templates at [templates.xenon.bot](https://templates.xenon.bot)
 
 To create a template, first sign in, click on your username in the top right, and then "add". You can find out more detailed steps [here](/templates#creating-a-template).
 
