@@ -2,14 +2,16 @@
 title: FAQ
 description: Frequently asked questions about Xenon.
 published: true
-date: 2020-07-05T15:46:44.887Z
+date: 2020-07-05T15:48:15.476Z
 tags: info, xenon, support
 editor: markdown
 ---
 
 # Xenons FAQ
 
-This is the FAQ for Xenon, if nothing on this page answers your question, come and ask in the [support server](https://xenon.bot/support)!
+This is the FAQ for Xenon, if nothing on this page answers your question, come and ask in the [support server!](https://xenon.bot/support)
+
+<br />
 
 ## Why are backups limited to the creator?
 
@@ -37,7 +39,7 @@ Do not ask this question, you will not get an answer, nobody will look for you.
 
 ## I donated or bought Xenon pro, but I did not get a role?
 
-You need to connect your discord account to patreon in the [settings tab](https://www.patreon.com/settings/apps). If you already connected it, try to disconnect and reconnect it.
+You need to connect your discord account to patreon in the [settings tab.](https://www.patreon.com/settings/apps) If you already connected it, try to disconnect and reconnect it.
 
 Thanks for your donation!
 
