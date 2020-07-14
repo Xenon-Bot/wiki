@@ -2,7 +2,7 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2020-06-28T14:12:43.218Z
+date: 2020-07-14T12:30:57.332Z
 tags: xenon, support
 editor: markdown
 ---
@@ -25,6 +25,9 @@ Create a backup of your discord. After the bot created the backup, it will tell 
 The count of messages to save per channel
 
 Only available for [premium](/premium) users!
+
+> Backups are not allowed to exceed a maximum size of 16 Megabyte. This might be a limitation for very large servers with a lot of channels and messages.
+{.is-warning}
 
 `max: 0 / 25 / 100 / 250` `default: 0` `optional`
 
