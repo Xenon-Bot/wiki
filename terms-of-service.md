@@ -2,7 +2,7 @@
 title: Terms Of Service
 description: The following applies to usage of the Xenon (including the premium versions) Discord bot: (referred to as "Xenon")
 published: true
-date: 2020-06-28T20:11:07.780Z
+date: 2020-07-22T15:55:36.043Z
 tags: info, xenon
 editor: markdown
 ---
@@ -19,7 +19,7 @@ You are strictly prohibited to use Xenon against the ToS of discord or for illeg
 <br />
 
 # Proprietary Rights
-We (Xenon Bot or more specificly Merlin Fuchs) own and retain all rights for public available data (including but not limited to templates). We grant you the permission to use this available data for your own needs, but strictly disallow any commercial use. You therefore shall not sell, license or otherwise commercialize the data except the permissions was expressly granted to you.
+We (Xenon Bot or more specifically Merlin Fuchs) own and retain all rights for public available data (including but not limited to templates). We grant you the permission to use this available data for your own needs, but strictly disallow any commercial use. You therefore shall not sell, license or otherwise commercialize the data except the permissions was expressly granted to you.
 
 <br />
 
