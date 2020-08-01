@@ -2,7 +2,7 @@
 title: Templates
 description: Xenon gives you access to hundreds of free templates. In contrast to backups, templates are public and can be used by everyone.
 published: true
-date: 2020-06-28T13:50:14.075Z
+date: 2020-08-01T23:02:30.630Z
 tags: xenon, support
 editor: markdown
 ---
@@ -38,9 +38,10 @@ A list of arguments, separated by a space. Putting a `!` in front of the argumen
 `*` enables all
 `!*` disables all
 
-Valid Arguments: `channels` `roles` `settings`
+**Valid Arguments**: `channels delete-channels roles delete-roles`
 
-Example: `x!backup load <backup-id> !* roles` will only load roles
+**Example**: `x!backup load <backup-id> !* delete-roles roles` will only load roles
+**Example**: `x!backup load <backup-id> !delete-roles !channels` will load everything beside channels
 
 <br />
 
