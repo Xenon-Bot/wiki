@@ -2,7 +2,7 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2020-08-01T23:01:00.465Z
+date: 2020-08-10T17:28:22.011Z
 tags: xenon, support
 editor: markdown
 ---
@@ -106,7 +106,7 @@ You can also use the guild id to delete the latest automated backup.
 
 # Automated Backups / Interval
 
-The bot creates a backup of your guild in a certain interval. It overrides the old one every time it creates a new one. 
+The bot creates a backup of your guild in a certain interval. It overrides the old one every time it creates a new one. Different [premium tiers](https://wiki.xenon.bot/en/premium#xenon-tiers) can keep more than 1 interval backup.
 
 To load a automated backup you can use `x!backup load interval` to load the last automated backup from the current guild or `x!backup load <guild_id>` to load the last automated backup from an other guild.
 
@@ -119,9 +119,13 @@ To load a automated backup you can use `x!backup load interval` to load the last
 # Tabs {.tabset}
 ## interval
 
-The id of the backup you want to delete. You get this after creating a backup.
+The time between every backup or "off".
 
-You can also use the guild id to delete the latest automated backup. 
+Supported units: `hours(h)`, `days(d)`, `weeks(w)`
+
+[Premium](https://wiki.xenon.bot/en/premium#xenon-tiers) users can have this as low as 4h but free users have a minimum of 1 day.
+
+Examples: `1d`, `12h`
 
 ## chatlog
 
