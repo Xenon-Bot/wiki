@@ -2,13 +2,13 @@
 title: Templates
 description: Xenon gives you access to hundreds of free templates. In contrast to backups, templates are public and can be used by everyone.
 published: true
-date: 2020-08-01T23:02:30.630Z
+date: 2020-09-01T06:59:04.152Z
 tags: xenon, support
 editor: markdown
 ---
 
 # List of templates
-You can find a list of templates at [templates.xenon.bot](https://templates.xenon.bot) and legacy templates with the `x!template list` command.
+You can find a list of templates at [templates.xenon.bot](https://templates.xenon.bot). Most of them can be loaded using Xenon or the discord template feature. Some legace templates are considered internal and can only be loaded using Xenon.
 
 <br />
 
