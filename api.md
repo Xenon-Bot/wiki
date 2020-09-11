@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-11T22:31:00.079Z
+date: 2020-09-11T22:33:07.841Z
 tags: 
 editor: markdown
 ---
@@ -25,7 +25,7 @@ In the case that a rate limit is exceeded, the API will return a 429 status code
 The JSON body contains a `retry_after` key which represents the number of milliseconds you should wait before making another request.
 ```json
 {
-	"error": "You got ratelimited"
+	"error": "You got ratelimited",
   "retry_after": 5000.0
 }
 ```
@@ -41,4 +41,7 @@ The API looks for the token in the `Authorization` header. Unlike the discord-ap
 ## Endpoints
 
 ### ID Mappers `GET /backups/ids`
-#### Query Parameters
+# Tabs {.tabset}
+## Query Arguments
+
+
