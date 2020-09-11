@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-11T22:49:17.897Z
+date: 2020-09-11T22:50:45.988Z
 tags: 
 editor: markdown
 ---
@@ -26,7 +26,7 @@ The JSON body contains a `retry_after` key which represents the number of millis
 ```json
 {
 	"error": "You got ratelimited",
-  "retry_after": 5000.0
+	"retry_after": 5000.0
 }
 ```
 
