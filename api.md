@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-11T23:00:54.813Z
+date: 2020-09-11T23:02:37.338Z
 tags: 
 editor: markdown
 ---
@@ -31,7 +31,7 @@ The JSON body contains a `retry_after` key which represents the number of millis
 ```
 
 ## Caching
-Some endpoints cache the response to increase performance. Those endpoints will have the `Cache-Control` and `Expiration` headers set. You can use them to tell you can cache the data locally and reduce the load on our API.
+Some endpoints cache the response to increase performance. Those endpoints will have the `Cache-Control` and `Expiration` headers set. You can use them to tell how long you can cache the data locally and reduce the load on our API.
 
 ## Authentication
 Most endpoints require authentication using an internal bot token. These tokens are currently manually granted to very few people. Send `Merlin#1337` a DM if you are interested in getting access. 
