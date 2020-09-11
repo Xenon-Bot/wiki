@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-11T22:26:11.490Z
+date: 2020-09-11T22:29:26.667Z
 tags: 
 editor: markdown
 ---
@@ -11,11 +11,13 @@ editor: markdown
 The API can be used to make existing or new services work well together with Xenon. The goal of providing this API to other developers is to make the user experience as seamless as possible.
 This API is at a very early stage and all endpoints are subject to change. (We will notify you before a breaking change happens)
 
-All endpoints only accept and respond with a JSON body unless specifically stated.
-
 API access is currently only given to very few people. Send `Merlin#1337` a DM if you are interested in getting access.
 
 # API Reference
+
+All endpoints only accept and respond with a JSON body unless specifically stated.
+
+Base Url: `https://xenon.bot/api`
 
 ## Rate Limits
 There is currently no way to tell when you will hit a rate-limit. The api doesn't provide headers for that.
@@ -38,4 +40,5 @@ The API looks for the token in the `Authorization` header. Unlike the discord-ap
 
 ## Endpoints
 
-### 
+### ID Mappers `GET /backups/ids`
+
