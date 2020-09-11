@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-11T22:44:35.401Z
+date: 2020-09-11T22:49:17.897Z
 tags: 
 editor: markdown
 ---
@@ -41,6 +41,12 @@ The API looks for the token in the `Authorization` header. Unlike the discord-ap
 ## Endpoints
 
 ### ID Mappers `GET /backups/ids`
+
+Can be used to restore server specific settings after a backup was loaded. Returns an object containing all the ids that have changed. This can be used to translate ids from the old server to the ids on the new one.
+
+Might be used in a command like `!restore-settings <guild-id / backup-id>`.
+
+To make sure that the user has permissions to restore settings from the specified guild, you should check the users permissions on that guild. If the guild no longer exists, you can make use of the `loaders` key. It contains the ids of the users that have loaded a backup with that guild combination before. This at least ensures that the user had admin on both servers at some point.
 
 # Tabs {.tabset}
 ## Query Parameters
