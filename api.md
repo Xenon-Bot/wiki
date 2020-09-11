@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-11T22:33:58.723Z
+date: 2020-09-11T22:39:05.300Z
 tags: 
 editor: markdown
 ---
@@ -43,9 +43,40 @@ The API looks for the token in the `Authorization` header. Unlike the discord-ap
 ### ID Mappers `GET /backups/ids`
 
 # Tabs {.tabset}
-## Query
+## Query Parameters
 
-## Body
+<table style="width:75%; text-align:center; margin-left:auto;margin-right:auto;">
+<thead>
+  <tr>
+    <th>Key</th>
+    <th>Description</th>
+    <th>Required</th>
+    <th>Default</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>source</td>
+    <td>ID of the guild where the user wants to restore the settings from (Where the backup was created) (supplied by the user)</td>
+    <td>either "source" or "backup"</td>
+    <td>-</td>
+  </tr>
+    <tr>
+    <td>target</td>
+    <td>ID of the guild where the user wants to restore the settings on (Where the backup was loaded) (probably where the command was executed)</td>
+    <td>yes</td>
+    <td>-</td>
+  </tr>
+    <tr>
+    <td>backup</td>
+    <td>ID of the backup that was loaded (supplied by the user)</td>
+    <td>either "source" or "backup"</td>
+    <td>-</td>
+  </tr>
+</tbody>
+</table>
+
+## JSON Body
 This body doesn't accept a body
 
 
