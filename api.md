@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-11T22:30:44.909Z
+date: 2020-09-11T22:31:00.079Z
 tags: 
 editor: markdown
 ---
@@ -41,4 +41,4 @@ The API looks for the token in the `Authorization` header. Unlike the discord-ap
 ## Endpoints
 
 ### ID Mappers `GET /backups/ids`
-
+#### Query Parameters
