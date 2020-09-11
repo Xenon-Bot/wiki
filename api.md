@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-11T22:39:05.300Z
+date: 2020-09-11T22:42:44.318Z
 tags: 
 editor: markdown
 ---
@@ -78,5 +78,29 @@ The API looks for the token in the `Authorization` header. Unlike the discord-ap
 
 ## JSON Body
 This body doesn't accept a body
+
+## JSON Response
+
+<table style="width:75%; text-align:center; margin-left:auto;margin-right:auto;">
+<thead>
+  <tr>
+    <th>Key</th>
+    <th>Description</th>
+    <th>Always Returned</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>ids</td>
+    <td>Object of "old-id" -> "new-id"</td>
+    <td>yes</td>
+  </tr>
+    <tr>
+    <td>loaders</td>
+    <td>List of users that loaded backups with this guild combination (used for permission checks)</td>
+    <td>no</td>
+  </tr>
+</tbody>
+</table>
 
 
