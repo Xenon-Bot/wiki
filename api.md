@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-11T22:53:27.901Z
+date: 2020-09-11T23:00:54.813Z
 tags: 
 editor: markdown
 ---
@@ -83,7 +83,7 @@ To make sure that the user has permissions to restore settings from the specifie
 </table>
 
 ## JSON Body
-This body doesn't accept a body
+This endpoint doesn't accept a body
 
 ## JSON Response
 
