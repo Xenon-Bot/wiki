@@ -2,9 +2,10 @@
 title: Terms Of Service
 description: The following applies to usage of the Xenon (including the premium versions) Discord bot: (referred to as "Xenon")
 published: true
-date: 2020-07-22T15:55:36.043Z
+date: 2020-09-12T08:37:59.220Z
 tags: info, xenon
 editor: markdown
+dateCreated: 2020-06-23T12:00:05.263Z
 ---
 
 # Introduction
@@ -14,7 +15,7 @@ If you do not agree with any of these terms, you are prohibited from using or ad
 <br />
 
 # Disclaimer
-You are strictly prohibited to use Xenon against the ToS of discord or for illegal purposes. We are doing our best to prevent these activities, while trying to provide the best user experience as possible. If you find people or communities using Xenon against the ToS of discord or even for illegal activities, please send us an email to `contact (at) discord (dot) club`.
+You are strictly prohibited to use Xenon against the ToS of discord or for illegal purposes. We are doing our best to prevent these activities, while trying to provide the best user experience as possible. If you find people or communities using Xenon against the ToS of discord or even for illegal activities, please send us an email to `contact (at) xenon (dot) bot`.
 
 <br />
 
