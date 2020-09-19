@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-19T13:50:34.921Z
+date: 2020-09-19T13:51:41.574Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-29T09:28:00.964Z
@@ -147,7 +147,7 @@ __JSON Response__
 
 ### Loader Events `GET /loaders/ws`
 
-Receive loader events over a websocket connection.
+Receive loader events over a websocket connection. This can be used to know if there is currently a backup loading or to automatically recover settings after a backup was loaded. 
 
 
 
