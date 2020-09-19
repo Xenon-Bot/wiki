@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-19T13:56:02.514Z
+date: 2020-09-19T16:15:29.690Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-29T09:28:00.964Z
@@ -148,7 +148,117 @@ __JSON Response__
 
 ### Loader Events `WS /loaders/ws`
 
-Receive loader events over a websocket connection. This can be used to know if there is currently a backup loading or to automatically recover settings after a backup was loaded. 
+Receive live updates about currently running loaders. Loaders can both be templates or backups.
+Listening for the "done" event could be useful to restore server specific settings automatically after a backup / template was loaded. The content of the event may differ but will always include enough information to query the id mapper.
+The Authorization header must be sent with the initiating HTTP request.
+
+#### Tabs {.tabset}
+##### Query Parameters
+This endpoint doesn't accept query parameters
+
+##### WS Send
+The websocket contains doesn't require you to send any information.
+
+##### WS Receive
+
+<table style="width:75%; text-align:center; margin-left:auto;margin-right:auto;">
+<thead>
+  <tr>
+    <th>Key</th>
+    <th>Description</th>
+    <th>Always Returned</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>event</td>
+    <td>The loader event ("start", "done" or "status")</td>
+    <td>yes</td>
+  </tr>
+    <tr>
+    <td>data</td>
+    <td>
+      <table style="width:75%; text-align:center; margin-left:auto;margin-right:auto;">
+        <thead>
+          <tr>
+            <th>Key</th>
+            <th>Description</th>
+            <th>Always Returned</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>id</td>
+            <td>The guild-id where the loader is running</td>
+            <td>yes</td>
+          </tr>
+          <tr>
+            <td>type</td>
+            <td>The type of the loader ("backup" or "template")</td>
+            <td>in "start" & "done"</td>
+          </tr>
+          <tr>
+            <td>source_id</td>
+            <td>The guild-id where the template / backup was created</td>
+            <td>in "start" & "done"</td>
+          </tr>
+          <tr>
+            <td>backup_id</td>
+            <td>The backup-id that is getting loading</td>
+            <td>if type = "backup"</td>
+          </tr>
+          <tr>
+            <td>template_id</td>
+            <td>The template-id that is getting loading</td>
+            <td>if type = "template"</td>
+          </tr>
+          <tr>
+            <td>status</td>
+            <td>The loader status (the string values might change at any time)</td>
+            <td>in "status"</td>
+          </tr>
+        </tbody>
+      </table>
+    </td>
+    <td>yes</td>
+  </tr>
+</tbody>
+</table>
+
+##### Example
+
+__Url__
+`GET /backups/ids?target=496683369665658880&source=410488579140354049`
+
+__JSON Body__
+```json
+{}
+```
+
+__JSON Response__
+```json
+{
+    "source_id": "410488579140354049",
+    "target_id": "496683369665658880",
+    "ids": {
+        "410488579140354049": "496683369665658880",
+        "410520361789161472": "754098965649162251",
+        "410533472055066624": "754098969658916895",
+        "410534436191469570": "754098966760652860",
+        "419932531828457473": "754098968748752987",
+        "422869735714324499": "754098972716695573",
+        "424288090316603418": "754098973509288008",
+        "443833570046509057": "754098971030323321",
+        "451843816484372480": "754098964390740016",
+        "480435337303425025": "754098970627670056",
+        "484796812851413012": "754098976092848220",
+        "493698045465067530": "754098971881898206"
+    },
+    "loaders": [
+        "386861188891279362"
+    ]
+}
+```
 
 
 
