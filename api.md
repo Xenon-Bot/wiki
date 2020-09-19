@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-19T13:52:36.750Z
+date: 2020-09-19T13:56:02.514Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-29T09:28:00.964Z
@@ -49,8 +49,8 @@ Might be used in a command like `!restore-settings <guild-id / backup-id>`.
 
 To make sure that the user has permissions to restore settings from the specified guild, you should check the users permissions on that guild. If the guild no longer exists, you can make use of the `loaders` key. It contains the ids of the users that have loaded a backup with that guild combination before. This at least ensures that the user had admin on both servers at some point.
 
-# Tabs {.tabset}
-## Query Parameters
+#### Tabs {.tabset}
+##### Query Parameters
 
 <table style="width:75%; text-align:center; margin-left:auto;margin-right:auto;">
 <thead>
@@ -83,10 +83,10 @@ To make sure that the user has permissions to restore settings from the specifie
 </tbody>
 </table>
 
-## JSON Body
+##### JSON Body
 This endpoint doesn't accept a body
 
-## JSON Response
+##### JSON Response
 
 <table style="width:75%; text-align:center; margin-left:auto;margin-right:auto;">
 <thead>
@@ -110,7 +110,7 @@ This endpoint doesn't accept a body
 </tbody>
 </table>
 
-## Example
+##### Example
 
 __Url__
 `GET /backups/ids?target=496683369665658880&source=410488579140354049`
@@ -145,9 +145,8 @@ __JSON Response__
 }
 ```
 
-<br />
 
-### Loader Events `GET /loaders/ws`
+### Loader Events `WS /loaders/ws`
 
 Receive loader events over a websocket connection. This can be used to know if there is currently a backup loading or to automatically recover settings after a backup was loaded. 
 
