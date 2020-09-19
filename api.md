@@ -2,9 +2,10 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-11T23:02:37.338Z
+date: 2020-09-19T13:50:34.921Z
 tags: 
 editor: markdown
+dateCreated: 2020-08-29T09:28:00.964Z
 ---
 
 # Intro
@@ -143,6 +144,10 @@ __JSON Response__
     ]
 }
 ```
+
+### Loader Events `GET /loaders/ws`
+
+Receive loader events over a websocket connection.
 
 
 
