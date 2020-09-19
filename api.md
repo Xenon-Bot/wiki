@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-19T16:15:29.690Z
+date: 2020-09-19T16:18:19.254Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-29T09:28:00.964Z
@@ -228,37 +228,71 @@ The websocket contains doesn't require you to send any information.
 ##### Example
 
 __Url__
-`GET /backups/ids?target=496683369665658880&source=410488579140354049`
+`WS /loaders/ws`
 
-__JSON Body__
+__WS Send__
 ```json
 {}
 ```
 
-__JSON Response__
+__WS Receive__
 ```json
 {
-    "source_id": "410488579140354049",
-    "target_id": "496683369665658880",
-    "ids": {
-        "410488579140354049": "496683369665658880",
-        "410520361789161472": "754098965649162251",
-        "410533472055066624": "754098969658916895",
-        "410534436191469570": "754098966760652860",
-        "419932531828457473": "754098968748752987",
-        "422869735714324499": "754098972716695573",
-        "424288090316603418": "754098973509288008",
-        "443833570046509057": "754098971030323321",
-        "451843816484372480": "754098964390740016",
-        "480435337303425025": "754098970627670056",
-        "484796812851413012": "754098976092848220",
-        "493698045465067530": "754098971881898206"
-    },
-    "loaders": [
-        "386861188891279362"
-    ]
+  "event": "start", 
+  "data": {
+    "id": "756891586859892777", 
+    "type": "backup", 
+    "source_id": "670235515903279105", 
+    "backup_id": "3zydfwqp0h"
+  }
 }
 ```
-
+```json
+{
+  "event": "status", 
+  "data": {
+    "id": "756891586859892777",
+    "status": "deleting roles"
+  }
+}
+```
+```json
+{
+  "event": "status", 
+  "data": {
+    "id": "756891586859892777",
+    "status": "deleting channels"
+  }
+}
+```
+```json
+{
+  "event": "status", 
+  "data": {
+    "id": "756891586859892777",
+    "status": "loading roles"
+  }
+}
+```
+```json
+{
+  "event": "status", 
+  "data": {
+    "id": "756891586859892777",
+    "status": "loading channels"
+  }
+}
+```
+```json
+{
+  "event": "done", 
+  "data": {
+    "id": "756891586859892777", 
+    "type": "backup", 
+    "source_id": "670235515903279105", 
+    "backup_id": "3zydfwqp0h"
+  }
+}
+```
 
 
