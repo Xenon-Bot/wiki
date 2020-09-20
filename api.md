@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-20T14:06:30.840Z
+date: 2020-09-20T14:06:46.614Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-29T09:28:00.964Z
@@ -154,7 +154,7 @@ Listening for the "done" event could be useful to restore server specific settin
 There three types of events: start (A loader was started), status (loader status updated), 
 done (loader has finished).
 Status updates are limited to 1/5s/loader, so it's not guaranteed that you receive all status events. The status strings (e.g. "loading roles") are internal values and might change at any time.
-You will always receive the "start" and "done" events tho.
+You should always receive the "start" and "done" events tho.
 
 The Authorization header must be sent with the initiating HTTP request.
 
