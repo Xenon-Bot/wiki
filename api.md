@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-19T16:18:19.254Z
+date: 2020-09-20T14:06:30.840Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-29T09:28:00.964Z
@@ -150,6 +150,12 @@ __JSON Response__
 
 Receive live updates about currently running loaders. Loaders can both be templates or backups.
 Listening for the "done" event could be useful to restore server specific settings automatically after a backup / template was loaded. The content of the event may differ but will always include enough information to query the id mapper.
+
+There three types of events: start (A loader was started), status (loader status updated), 
+done (loader has finished).
+Status updates are limited to 1/5s/loader, so it's not guaranteed that you receive all status events. The status strings (e.g. "loading roles") are internal values and might change at any time.
+You will always receive the "start" and "done" events tho.
+
 The Authorization header must be sent with the initiating HTTP request.
 
 #### Tabs {.tabset}
@@ -214,7 +220,7 @@ The websocket contains doesn't require you to send any information.
           </tr>
           <tr>
             <td>status</td>
-            <td>The loader status (the string values might change at any time)</td>
+            <td>The loader status</td>
             <td>in "status"</td>
           </tr>
         </tbody>
