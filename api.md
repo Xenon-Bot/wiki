@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-26T12:30:09.288Z
+date: 2020-09-26T19:16:43.710Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-29T09:28:00.964Z
@@ -304,5 +304,60 @@ __WS Receive__
   }
 }
 ```
+
+### Attach bot to templates `POST /templates/{template_id}/bots`
+
+Add your bot to the list of bots that include settings for that template. This will make your bot show up on the template details page abd should only be used if you are actually able to restore bot settings for that template.
+
+This can work by both listening to the DONE loader event (for servers that your bot is already on) and by providing a command for users that add your bot after loading the template.
+
+#### Tabs {.tabset}
+##### Query Parameters
+This endpoint doesn't accept query parameters
+
+##### JSON Body
+
+<table style="width:75%; text-align:center; margin-left:auto;margin-right:auto;">
+<thead>
+  <tr>
+    <th>Key</th>
+    <th>Description</th>
+    <th>Required</th>
+    <th>Default</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>user</td>
+    <td>ID of the user that your bot is acting in behalf of. (e.g. the user that ran the command) This can be used as a simple permission check and has to match the template creator.</td>
+    <td>no</td>
+    <td>-</td>
+  </tr>
+</tbody>
+</table>
+
+##### JSON Response
+
+Empty json object on success
+
+##### Example
+
+__Url__
+`POST /templates/hHGhNE6wyxgF/bots`
+
+__JSON Body__
+```json
+{"user": "647737109494497281"}
+```
+
+__JSON Response__
+```json
+{}
+```
+
+### Detach bot from templates `DELETE /templates/{template_id}/bots`
+
+Delete your bot from the list of bots that include settings for that template.
+Same behavior as `POST /templates/{template_id}/bots`.
 
 
