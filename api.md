@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-20T14:06:46.614Z
+date: 2020-09-26T12:30:09.288Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-29T09:28:00.964Z
@@ -13,6 +13,10 @@ The API can be used to make existing or new services work well together with Xen
 This API is at a very early stage and all endpoints are subject to change. (We will notify you before a breaking change happens)
 
 API access is currently only given to very few people. Send `Merlin#1337` a DM if you are interested in getting access.
+
+Tokens have been granted to:
+- [Wick](https://wickbot.com/)
+- [Bender](https://benderbot.co)
 
 # API Reference
 
@@ -41,7 +45,7 @@ The API looks for the token in the `Authorization` header. Unlike the discord-ap
 
 ## Endpoints
 
-### ID Mappers `GET /backups/ids`
+### ID Mappers `GET /mappers`
 
 Can be used to restore server specific settings after a backup was loaded. Returns an object containing all the ids that have changed. This can be used to translate ids from the old server to the ids on the new one.
 
@@ -113,7 +117,7 @@ This endpoint doesn't accept a body
 ##### Example
 
 __Url__
-`GET /backups/ids?target=496683369665658880&source=410488579140354049`
+`GET /mappers?target=496683369665658880&source=410488579140354049`
 
 __JSON Body__
 ```json
