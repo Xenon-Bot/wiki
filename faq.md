@@ -15,7 +15,7 @@ This is the FAQ for Xenon, if nothing on this page answers your question, come a
 
 ## My backup is missing and I didn't delete it! Where is it?
 
-Make sure you made it on your **current account**, backups are limited to their creator. This is the result of a [discussion with discord](https://discord.com/channels/410488579140354049/633228935370637312/633229503614812160) to protect the bot against abuse.
+Make sure you made it on your **current account**, backups are limited to their creator. This is the result of a [discussion with discord](https://cdn.discordapp.com/attachments/412360041300230168/480494807823810590/unknown.png) to protect the bot against abuse.
 
 It is also common that people **accidently copy their backup ID incorrectly**, please double check, especially the difference between an `l` (L character) and a `1` (number one).
 
@@ -25,9 +25,7 @@ If this still isn't the issue, your backup may be older than 11th of April 2019,
 
 ## What is the best template? Is there a template for ...
 
-We don't know every template, you can **search on the [templates site](https://templates.xenon.bot)** or use `x!template search` to look through old templates. 
-
-Do not ask this question, you will not get an answer, nobody will look for you.
+You can **search on the [templates site](https://templates.xenon.bot)** to find the template you are looking for.
 
 <br />
 
@@ -47,7 +45,7 @@ Do `x!backup create`, you will then be messaged a backup ID which you can use to
 
 ## How can I load / create a template?
 
-You can **find templates at [templates.xenon.bot](https://templates.xenon.bot)**
+You can **find templates at [templates.xenon.bot](https://templates.xenon.bot)**, then simply click "Use" to use it.
 
 To create a template, first sign in, **click on your username in the top right, and then "add"**. You can find out more detailed steps [here](/templates#creating-a-template).
 
