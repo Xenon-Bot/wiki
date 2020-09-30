@@ -9,7 +9,7 @@ dateCreated: 2020-08-29T09:28:00.964Z
 ---
 
 # Intro
-The API can be used to make existing or new services work well together with Xenon. The goal of providing this API to other developers is to make the user experience as seamless as possible.
+The API can be used to make existing or new services work together with Xenon. The goal of providing this API to other developers is to make the user experience as seamless as possible.
 This API is at a very early stage and all endpoints are subject to change. (We will notify you before a breaking change happens)
 
 API access is currently only given to very few people. Send `Merlin#1337` a DM if you are interested in getting access.
@@ -26,7 +26,7 @@ Base Url: `https://xenon.bot/api`
 
 ## Rate Limits
 There is currently no way to tell when you will hit a rate-limit. The api doesn't provide headers for that.
-In the case that a rate limit is exceeded, the API will return a 429 status code with a JSON body.
+If the rate limit is exceeded, the API will return a 429 status code with a JSON body.
 The JSON body contains a `retry_after` key which represents the number of milliseconds you should wait before making another request.
 ```json
 {
@@ -41,17 +41,17 @@ Some endpoints cache the response to increase performance. Those endpoints will 
 ## Authentication
 Most endpoints require authentication using an internal bot token. These tokens are currently manually granted to very few people. Send `Merlin#1337` a DM if you are interested in getting access. 
 
-The API looks for the token in the `Authorization` header. Unlike the discord-api, you don't have to prefix the token with "Bot ".
+The API looks for the token in the `Authorization` header. Unlike the discord-api, you don't have to prefix the token with "Bot".
 
 ## Endpoints
 
 ### ID Mappers `GET /mappers`
 
-Can be used to restore server specific settings after a backup was loaded. Returns an object containing all the ids that have changed. This can be used to translate ids from the old server to the ids on the new one.
+ID Mappers can be used to restore server specific settings after a backup was loaded. This endpoint will return an object containing all the ids that have changed. It can be used to translate IDs from the old server to the ids on the new one.
 
 Might be used in a command like `!restore-settings <guild-id / backup-id>`.
 
-To make sure that the user has permissions to restore settings from the specified guild, you should check the users permissions on that guild. If the guild no longer exists, you can make use of the `loaders` key. It contains the ids of the users that have loaded a backup with that guild combination before. This at least ensures that the user had admin on both servers at some point.
+To make sure that the user has permissions to restore settings from the specified guild, you should check the users permissions on that guild. If the guild no longer exists, you can make use of the `loaders` key. It contains the ids of the users that have loaded a backup with that guild combination before. This ensures that the user had at least admin on both servers at some point.
 
 #### Tabs {.tabset}
 ##### Query Parameters
@@ -68,19 +68,19 @@ To make sure that the user has permissions to restore settings from the specifie
 <tbody>
   <tr>
     <td>source</td>
-    <td>ID of the guild where the user wants to restore the settings from (Where the backup was created) (supplied by the user)</td>
+    <td>ID of the guild where the user wants to restore the settings from (Where the backup was created) (Supplied by the user)</td>
     <td>either "source" or "backup"</td>
     <td>-</td>
   </tr>
     <tr>
     <td>target</td>
-    <td>ID of the guild where the user wants to restore the settings on (Where the backup was loaded) (probably where the command was executed)</td>
+    <td>ID of the guild where the user wants to restore the settings on (Where the backup was loaded) (Most likely where the command was executed)</td>
     <td>yes</td>
     <td>-</td>
   </tr>
     <tr>
     <td>backup</td>
-    <td>ID of the backup that was loaded (supplied by the user)</td>
+    <td>ID of the backup that was loaded (Supplied by the user)</td>
     <td>either "source" or "backup"</td>
     <td>-</td>
   </tr>
@@ -155,19 +155,19 @@ __JSON Response__
 Receive live updates about currently running loaders. Loaders can both be templates or backups.
 Listening for the "done" event could be useful to restore server specific settings automatically after a backup / template was loaded. The content of the event may differ but will always include enough information to query the id mapper.
 
-There three types of events: start (A loader was started), status (loader status updated), 
+There are three types of events: start (a loader was started), status (loader status updated), 
 done (loader has finished).
 Status updates are limited to 1/5s/loader, so it's not guaranteed that you receive all status events. The status strings (e.g. "loading roles") are internal values and might change at any time.
-You should always receive the "start" and "done" events tho.
+You should always receive the "start" and "done" events.
 
 The Authorization header must be sent with the initiating HTTP request.
 
 #### Tabs {.tabset}
 ##### Query Parameters
-This endpoint doesn't accept query parameters
+This endpoint doesn't accept query parameters.
 
 ##### WS Send
-The websocket contains doesn't require you to send any information.
+The websocket doesn't require you to send any information.
 
 ##### WS Receive
 
@@ -214,12 +214,12 @@ The websocket contains doesn't require you to send any information.
           </tr>
           <tr>
             <td>backup_id</td>
-            <td>The backup-id that is getting loading</td>
+            <td>The backup-id that is being loaded</td>
             <td>if type = "backup"</td>
           </tr>
           <tr>
             <td>template_id</td>
-            <td>The template-id that is getting loading</td>
+            <td>The template-id that is being loaded</td>
             <td>if type = "template"</td>
           </tr>
           <tr>
@@ -307,13 +307,13 @@ __WS Receive__
 
 ### Attach bot to templates `POST /templates/{template_id}/bots`
 
-Add your bot to the list of bots that include settings for that template. This will make your bot show up on the template details page abd should only be used if you are actually able to restore bot settings for that template.
+Add your bot to the list of bots that include settings for that template. This will make your bot show up on the template details page and should only be used if you are able to restore bot settings for that template.
 
 This can work by both listening to the DONE loader event (for servers that your bot is already on) and by providing a command for users that add your bot after loading the template.
 
 #### Tabs {.tabset}
 ##### Query Parameters
-This endpoint doesn't accept query parameters
+This endpoint doesn't accept query parameters.
 
 ##### JSON Body
 
@@ -338,7 +338,7 @@ This endpoint doesn't accept query parameters
 
 ##### JSON Response
 
-Empty json object on success
+Empty json object on success.
 
 ##### Example
 
