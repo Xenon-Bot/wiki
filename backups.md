@@ -2,7 +2,7 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2020-09-24T07:59:10.513Z
+date: 2020-10-04T18:52:13.179Z
 tags: xenon, support
 editor: markdown
 dateCreated: 2020-06-24T14:40:55.477Z
@@ -68,7 +68,7 @@ A list of arguments, separated by a space. Putting a ! in front of the argument 
 
 `!*` disables all
 
-**Valid Arguments**: `settings members channels delete-channels roles delete-roles bans invite`
+**Valid Arguments**: `settings members channels delete-channels roles delete-roles bans invite pins`
 
 **Example**: `x!backup load <backup-id> !* delete-roles roles` will only load roles
 **Example**: `x!backup load <backup-id> !delete-roles !channels` will load everything beside channels
