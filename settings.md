@@ -2,14 +2,11 @@
 title: Settings
 description: 
 published: true
-date: 2020-10-06T13:14:35.235Z
+date: 2020-10-06T13:14:52.370Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-06T13:12:14.120Z
 ---
-
-> All sync commands are only available for premium users.
-{.is-info}
 
 # Permission Settings
 Create a message sync between two channels in one or two directions. You can find a list of your syncs with `x?sync list`
