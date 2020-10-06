@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2020-10-06T13:12:14.120Z
+date: 2020-10-06T13:14:35.235Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-06T13:12:14.120Z
@@ -11,7 +11,7 @@ dateCreated: 2020-10-06T13:12:14.120Z
 > All sync commands are only available for premium users.
 {.is-info}
 
-# Creating a message sync
+# Permission Settings
 Create a message sync between two channels in one or two directions. You can find a list of your syncs with `x?sync list`
 
 ## Syntax
@@ -35,7 +35,7 @@ Either the channel id or mention of the other channel
 
 <br />
 
-# Creating a ban sync
+# Audit Logs
 
 Create a ban sync between two guilds in one or two directions. You can find a list of your syncs with x?sync list
 
@@ -57,25 +57,3 @@ The id of the other guild. You can find out how to get a guild id [here](https:/
 `required`
 
 <br />
-
-# Deleting a sync
-
-You obviously need to create sync before you can use this command.
-
-You can find a list of your syncs with `x?sync list`.
-
-> Deleting a sync is irreversible! Be careful with this command.
-{.is-danger}
-
-## Syntax
-
-`x?sync delete <sync-id>`
-
-## Arguments
-
-# Tabs {.tabset}
-## sync-id
-
-The id of the sync you want to delete. You get this after creating a sync.
-
-`required`
