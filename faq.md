@@ -2,9 +2,10 @@
 title: FAQ
 description: Frequently asked questions about Xenon.
 published: true
-date: 2020-07-05T16:11:20.196Z
+date: 2020-10-16T13:47:07.806Z
 tags: info, xenon, support
 editor: markdown
+dateCreated: 2020-07-05T15:32:48.428Z
 ---
 
 # Xenons FAQ
@@ -20,6 +21,14 @@ Make sure you made it on your **current account**, backups are limited to their 
 It is also common that people **accidently copy their backup ID incorrectly**, please double check, especially the difference between an `l` (L character) and a `1` (number one).
 
 If this still isn't the issue, your backup may be older than 11th of April 2019, backups older than this have been deleted.
+
+<br />
+
+## I got an error, what do I do?
+
+Read the error carefully and think about what it says, the errors are written as clearly as possible and should be easy to understand. We cannot write them any clearer for you.
+
+If it says you have reached a limit, we usually cannot do anything about them, so please just wait for the limit to expire or consider doing what it suggests.
 
 <br />
 
