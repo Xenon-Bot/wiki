@@ -2,14 +2,14 @@
 title: Settings
 description: 
 published: true
-date: 2020-10-19T20:33:17.071Z
+date: 2020-10-19T20:36:20.378Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-06T13:12:14.120Z
 ---
 
 # Permissions Settings
-Change how is able to create backups, syncs & chatlog and load backups, chatlogs & templates. This does not affect basic commands like `x!ping`.
+Change who is able to create backups, syncs & chatlog and load backups, chatlogs & templates. This does not affect basic commands like `x!ping`.
 
 ## Syntax
 
