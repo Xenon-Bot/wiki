@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2020-10-19T20:32:17.186Z
+date: 2020-10-19T20:33:17.071Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-06T13:12:14.120Z
@@ -24,7 +24,6 @@ The permissions level that you want to set for this server.
 
 `options: from, to, both` `required`
 
-### Tabs {.tabset}
 #### admins
 
 Server admins can use all the relevant commands like `backup create`, `backup load` and `template load`.
