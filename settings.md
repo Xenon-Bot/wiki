@@ -2,55 +2,48 @@
 title: Settings
 description: 
 published: true
-date: 2020-10-06T13:16:15.654Z
+date: 2020-10-19T20:32:17.186Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-06T13:12:14.120Z
 ---
 
 # Permissions Settings
-Create a message sync between two channels in one or two directions. You can find a list of your syncs with `x?sync list`
+Change how is able to create backups, syncs & chatlog and load backups, chatlogs & templates. This does not affect basic commands like `x!ping`.
 
 ## Syntax
 
-`x?sync messages <direction> <channel>`
+`x?settings permissions <level>`
 
 ## Arguments
 
 # Tabs {.tabset}
-## direction
+## level
 
-The direction for the sync. Either "from" to sync messages from the other channel to yours, "to" to sync messages from yours to the other channel or "both" for both directions.
-
-`options: from, to, both` `required`
-
-## channel
-
-Either the channel id or mention of the other channel
-
-`required`
-
-<br />
-
-# Audit Logs
-
-Create a ban sync between two guilds in one or two directions. You can find a list of your syncs with x?sync list
-
-## Syntax
-
-`x?sync bans <direction> <guild-id>`
-
-# Tabs {.tabset}
-## direciton
-
-The direction for the sync. Either "from" to sync bans from the other guild to yours, "to" to sync bans from yours to the other channel or "both" for both directions.
+The permissions level that you want to set for this server.
 
 `options: from, to, both` `required`
 
-## guild-id
+### Tabs {.tabset}
+#### admins
 
-The id of the other guild. You can find out how to get a guild id [here](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
+Server admins can use all the relevant commands like `backup create`, `backup load` and `template load`.
+**Bare careful with this!**
 
-`required`
+`x?settings permissions admins`
+
+#### destructive owner *(default)*
+
+Server admins can create backups but can't load a template or backup.
+
+`x?settings permissions destructive owner`
+
+#### owner
+
+Server admins can neither create backups nor load a template or backup. Only the server owner can use any of the relevant commands.
+
+`x?settings permissions destructive owner`
+
+#### 
 
 <br />
