@@ -2,9 +2,9 @@
 title: FAQ
 description: Frequently asked questions about Xenon.
 published: true
-date: 2020-10-16T13:47:07.806Z
-tags: info, xenon, support
-editor: markdown
+date: 2020-10-16T13:47:19.972Z
+tags: 
+editor: undefined
 dateCreated: 2020-07-05T15:32:48.428Z
 ---
 

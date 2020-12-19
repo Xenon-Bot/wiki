@@ -2,9 +2,10 @@
 title: Templates
 description: Xenon gives you access to hundreds of free templates. In contrast to backups, templates are public and can be used by everyone.
 published: true
-date: 2020-09-01T06:59:04.152Z
-tags: xenon, support
-editor: markdown
+date: 2020-12-04T21:14:59.328Z
+tags: 
+editor: undefined
+dateCreated: 2020-06-26T16:25:21.365Z
 ---
 
 # List of templates
@@ -27,7 +28,8 @@ You can also load any discord template in an **existing** server by supplying th
 # Tabs {.tabset}
 ## template name/link
 
-The name or link of the template you want to load
+The name or link of the template you want to load.
+e.g. `starter`, `6p9d4EBbuYcM` or `https://discord.new/6p9d4EBbuYcM`
 
 `required`
 

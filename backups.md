@@ -2,9 +2,9 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2020-10-04T18:52:13.179Z
-tags: xenon, support
-editor: markdown
+date: 2020-12-19T00:42:10.956Z
+tags: 
+editor: undefined
 dateCreated: 2020-06-24T14:40:55.477Z
 ---
 
@@ -23,11 +23,11 @@ Create a backup of your discord. After the bot created the backup, it will tell 
 # Tabs {.tabset}
 ## Chatlog
 
-The count of messages to save per channel
+The count of messages to save per channel. Default is the max amount for your tier.
 
 Only available for [premium](/premium) users!
 
-`max: 0 / 25 / 100 / 250` `default: 0` `optional`
+`max: 0 / 25 / 100 / 250` `default: 0 / 25 / 100 / 250` `optional`
 
 <br />
 

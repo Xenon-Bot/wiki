@@ -2,9 +2,9 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2020-09-26T19:16:43.710Z
+date: 2020-11-25T19:51:25.385Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-08-29T09:28:00.964Z
 ---
 
@@ -208,6 +208,11 @@ The websocket doesn't require you to send any information.
             <td>in "start" & "done"</td>
           </tr>
           <tr>
+            <td>user_id</td>
+            <td>The id of the user that is loading the backup or template)</td>
+            <td>in "start" & "done"</td>
+          </tr>
+          <tr>
             <td>source_id</td>
             <td>The guild-id where the template / backup was created</td>
             <td>in "start" & "done"</td>
@@ -252,6 +257,7 @@ __WS Receive__
   "data": {
     "id": "756891586859892777", 
     "type": "backup", 
+    "user_id": "386861188891279362",
     "source_id": "670235515903279105", 
     "backup_id": "3zydfwqp0h"
   }
@@ -299,6 +305,7 @@ __WS Receive__
   "data": {
     "id": "756891586859892777", 
     "type": "backup", 
+    "user_id": "386861188891279362",
     "source_id": "670235515903279105", 
     "backup_id": "3zydfwqp0h"
   }

@@ -2,9 +2,9 @@
 title: Settings
 description: 
 published: true
-date: 2020-10-19T20:36:20.378Z
+date: 2020-10-19T20:36:27.083Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-10-06T13:12:14.120Z
 ---
 
