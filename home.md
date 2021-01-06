@@ -2,7 +2,7 @@
 title: Welcome!
 description: Welcome to the official documentation of Xenon!
 published: true
-date: 2020-12-29T23:36:24.740Z
+date: 2021-01-06T14:40:47.656Z
 tags: 
 editor: undefined
 dateCreated: 2020-06-21T10:16:34.688Z
@@ -19,6 +19,21 @@ The bot Xenon is based around the idea of creating & loading backups of your dis
 
 > If you need further help, join the [support server](https://xenon.bot/discord).
 {.is-info}
+
+<br />
+
+# Slash commands
+
+Xenon is now avaliable using / on up to date discord clients (web, desktop and mobile). You will need to reinvite the bot manually to enable them. Slash commands will be automatically enabled on all servers at the end of January 2021. This will replace the original x! version of Xenon within a few months. Xenon Premium does not have this functionality yet.
+
+<br /> 
+
+## Demo
+<br />
+
+<video controls width="60%">
+<source src="https://wiki.xenon.bot/slash-commands-demo.mp4" type="video/mp4">
+</video>
 
 <br />
 
