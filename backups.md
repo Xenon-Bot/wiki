@@ -2,9 +2,9 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2020-12-19T00:42:10.956Z
+date: 2021-01-08T11:19:38.233Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-06-24T14:40:55.477Z
 ---
 
@@ -71,7 +71,7 @@ A list of arguments, separated by a space. Putting a ! in front of the argument 
 **Valid Arguments**: `settings members channels delete-channels roles delete-roles bans invite pins`
 
 **Example**: `x!backup load <backup-id> !* delete-roles roles` will only load roles
-**Example**: `x!backup load <backup-id> !delete-roles !channels` will load everything beside channels
+**Example**: `x!backup load <backup-id> !delete-roles !channels` will load everything but not delete existing channels and roles
 
 `optional` `default: members channels roles bans settings`
 
