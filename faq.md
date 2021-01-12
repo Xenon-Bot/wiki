@@ -2,8 +2,8 @@
 title: FAQ
 description: Frequently asked questions about Xenon.
 published: true
-date: 2021-01-12T12:27:35.901Z
-tags: info, xenon
+date: 2021-01-12T12:28:32.971Z
+tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-07-05T15:32:48.428Z
 ---
