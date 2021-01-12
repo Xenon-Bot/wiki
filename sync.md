@@ -2,9 +2,9 @@
 title: Sync
 description: Sync messages between different channels and bans between different servers. It's possible to sync in one direction or in both.
 published: true
-date: 2020-06-28T13:47:36.353Z
-tags: 
-editor: undefined
+date: 2021-01-12T12:32:09.536Z
+tags: premium, help
+editor: markdown
 dateCreated: 2020-06-28T13:46:53.625Z
 ---
 
