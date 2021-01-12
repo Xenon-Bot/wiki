@@ -2,9 +2,9 @@
 title: Chatlog
 description: Chatlogs are used to save the last X messages in one channel. Like backups, chatlogs are linked to the creator account and can't be loaded by someone else.
 published: true
-date: 2020-06-28T13:39:55.843Z
-tags: 
-editor: undefined
+date: 2021-01-12T12:31:51.071Z
+tags: premium, help
+editor: markdown
 dateCreated: 2020-06-28T13:39:51.956Z
 ---
 
