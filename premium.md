@@ -2,8 +2,8 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2021-01-12T12:28:06.540Z
-tags: premium
+date: 2021-01-12T12:28:55.072Z
+tags: info, premium
 editor: markdown
 dateCreated: 2020-06-23T12:58:31.594Z
 ---
