@@ -2,9 +2,9 @@
 title: Settings
 description: 
 published: true
-date: 2020-10-19T20:36:27.083Z
-tags: 
-editor: undefined
+date: 2021-01-12T12:32:28.154Z
+tags: xenon, premium, help
+editor: markdown
 dateCreated: 2020-10-06T13:12:14.120Z
 ---
 
