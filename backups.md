@@ -2,8 +2,8 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2021-01-08T11:19:38.233Z
-tags: 
+date: 2021-01-12T12:29:49.410Z
+tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-06-24T14:40:55.477Z
 ---
