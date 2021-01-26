@@ -2,7 +2,7 @@
 title: Terms Of Service
 description: The following applies to usage of the Xenon (including the premium versions) Discord bot: (referred to as "Xenon")
 published: true
-date: 2021-01-12T12:26:48.596Z
+date: 2021-01-26T19:29:24.377Z
 tags: info
 editor: markdown
 dateCreated: 2020-06-23T12:00:05.263Z
@@ -20,7 +20,7 @@ You are strictly prohibited to use Xenon against the ToS of discord or for illeg
 <br />
 
 # Proprietary Rights
-We (Xenon Bot or more specifically Merlin Fuchs) own and retain all rights for public available data (including but not limited to templates). We grant you the permission to use this available data for your own needs, but strictly disallow any commercial use. You therefore shall not sell, license or otherwise commercialize the data except the permissions was expressly granted to you.
+We (Xenon Bot or more specifically Merlin Fuchs) own and retain all rights for public available data (including but not limited to templates). We grant you the permission to use this available data for your own needs, but strictly disallow any commercial use. You therefore shall not sell, license or otherwise commercialize the data except the permission was expressly granted to you.
 
 <br />
 
@@ -29,6 +29,19 @@ We (Xenon Bot or more specifically Merlin Fuchs) own and retain all rights for p
 - User data including backups may be deleted at any time.
 - Any "pro" or "premium" features are not guaranteed. They may change or be revoked at any time.
 - Access to all or specific features of Xenon may be revoked, for all or a specific user, at any time.
+
+<br />
+
+# Refund Policy
+Refunds for payments **can** be when the user requests it and one of the following requirements is met:
+- it's the first payment and the user requests a refund on the same day
+- it's a monthly recurring payment and the user requests a refund in a three day period
+- it's a annual recurring payment and the user requests a refund in a seven day period
+- a premium feature was removed and the user bough the tier specifically because of that feature
+
+We still require a comprehensible explanation of the situation and never guarantee a refund.
+
+Partial refunds might be issued for annual payments under special circumstances.
 
 <br />
 
