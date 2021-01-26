@@ -2,7 +2,7 @@
 title: Terms Of Service
 description: The following applies to usage of the Xenon (including the premium versions) Discord bot: (referred to as "Xenon")
 published: true
-date: 2021-01-26T19:30:09.149Z
+date: 2021-01-26T19:31:29.419Z
 tags: info
 editor: markdown
 dateCreated: 2020-06-23T12:00:05.263Z
@@ -36,8 +36,8 @@ We (Xenon Bot or more specifically Merlin Fuchs) own and retain all rights for p
 Refunds for payments **may** be issued when the user requests it and one of the following requirements is met:
 - it's the first payment and the user requests a refund on the same day
 - it's a monthly recurring payment and the user requests a refund in a three day period
-- it's a annual recurring payment and the user requests a refund in a seven day period
-- a premium feature was removed and the user bough the tier specifically because of that feature
+- it's an annual recurring payment and the user requests a refund in a seven day period
+- a major premium feature was removed and the user bought the tier specifically because of that feature
 
 We still require a comprehensible explanation of the situation and never guarantee a refund.
 
