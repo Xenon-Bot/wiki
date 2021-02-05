@@ -2,7 +2,7 @@
 title: Terms Of Service
 description: The following applies to usage of the Xenon (including the premium versions) Discord bot: (referred to as "Xenon")
 published: true
-date: 2021-01-26T19:31:29.419Z
+date: 2021-02-05T21:27:59.093Z
 tags: info
 editor: markdown
 dateCreated: 2020-06-23T12:00:05.263Z
@@ -27,6 +27,7 @@ We (Xenon Bot or more specifically Merlin Fuchs) own and retain all rights for p
 # Availability
 - Xenon is provided as-is. There are no guarantees that it will be available in the future, and its purpose or availability may be changed at any time.
 - User data including backups may be deleted at any time.
+- User data is non-transferable, including but not limited to backups.
 - Any "pro" or "premium" features are not guaranteed. They may change or be revoked at any time.
 - Access to all or specific features of Xenon may be revoked, for all or a specific user, at any time.
 
