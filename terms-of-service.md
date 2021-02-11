@@ -2,7 +2,7 @@
 title: Terms Of Service
 description: The following applies to usage of the Xenon (including the premium versions) Discord bot: (referred to as "Xenon")
 published: true
-date: 2021-02-05T21:27:59.093Z
+date: 2021-02-11T20:05:51.774Z
 tags: info
 editor: markdown
 dateCreated: 2020-06-23T12:00:05.263Z
@@ -41,8 +41,9 @@ Refunds for payments **may** be issued when the user requests it and one of the 
 - a major premium feature was removed and the user bought the tier specifically because of that feature
 
 We still require a comprehensible explanation of the situation and never guarantee a refund.
-
 Partial refunds might be issued for annual payments under special circumstances.
+
+Refunds are **never** issued if you have broken our Terms of Service and therefore lost access to certain or all features.
 
 <br />
 
