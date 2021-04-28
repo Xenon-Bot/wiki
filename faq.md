@@ -2,7 +2,7 @@
 title: FAQ
 description: Frequently asked questions about Xenon.
 published: true
-date: 2021-01-12T12:28:32.971Z
+date: 2021-04-28T21:59:38.163Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-07-05T15:32:48.428Z
@@ -14,21 +14,33 @@ This is the FAQ for Xenon, if nothing on this page answers your question, come a
 
 <br />
 
-## My backup is missing and I didn't delete it! Where is it?
+## How do I create a backup?
+
+Do `/backup create`, you will then be messaged a backup ID which you can use to restore a server you have permission in with `/backup load backup_id:` followed by the ID xenon sends you. Remember, **you can only load backups you created**.
+
+<br />
+
+## How can I load / create a template?
+
+You can **find templates at [templates.xenon.bot](https://templates.xenon.bot)**, then simply click "Use" to use it, you will be given clear instructions on what to do next.
+
+To create a template, first sign in, **click on your username in the top right, and then "add"**. You can find out more detailed steps [here](/templates#creating-a-template).
+
+<br />
+
+## My backup is not working, it says it doesn't exist!
 
 Make sure you made it on your **current account**, backups are limited to their creator. This is the result of a [discussion with discord](https://cdn.discordapp.com/attachments/412360041300230168/480494807823810590/unknown.png) to protect the bot against abuse.
 
-It is also common that people **accidently copy their backup ID incorrectly**, please double check, especially the difference between an `l` (L character) and a `1` (number one).
-
-If this still isn't the issue, your backup may be older than 11th of April 2019, backups older than this have been deleted.
+It is also common that people **accidently copy their backup ID incorrectly**, please double check, especially the difference between an `l` (L character) and a `1` (number one), if possible, copy and paste the ID.
 
 <br />
 
 ## I got an error, what do I do?
 
-Read the error carefully and think about what it says, the errors are written as clearly as possible and should be easy to understand. We cannot write them any clearer for you.
+Read the error carefully and think about what it says, the errors are written as clearly as possible and should be easy to understand. We cannot write them any clearer for you, so please do not just send us a message of the error.
 
-If it says you have reached a limit, we usually cannot do anything about them, so please just wait for the limit to expire or consider doing what it suggests.
+If it says you have reached a limit **such as the 48 hour role limit**, we usually **cannot do anything about them**, so please just wait for the limit to expire or consider doing what it suggests.
 
 <br />
 
@@ -45,23 +57,3 @@ You need to **connect your discord account** to patreon in the [settings tab.](h
 Thanks for your donation!
 
 <br />
-
-## How do I create a backup?
-
-Do `x!backup create`, you will then be messaged a backup ID which you can use to restore your server with `x!backup load` followed by the ID xenon sends you.
-
-<br />
-
-## How can I load / create a template?
-
-You can **find templates at [templates.xenon.bot](https://templates.xenon.bot)**, then simply click "Use" to use it.
-
-To create a template, first sign in, **click on your username in the top right, and then "add"**. You can find out more detailed steps [here](/templates#creating-a-template).
-
-If you want to use one of Xenon's **old** templates, you can use `x!template load name`, or search the old templates with `x!template search`.
-
-<br />
-
-## Where can I report bugs or suggest something?
-
-You can **create an issue on [github](https://github.com/Xenon-Bot/xenon-main/issues)** for suggestions or bug reports.
