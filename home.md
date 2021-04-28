@@ -2,7 +2,7 @@
 title: Welcome!
 description: Welcome to the official documentation of Xenon!
 published: true
-date: 2021-03-31T17:33:22.997Z
+date: 2021-04-28T22:01:42.428Z
 tags: info
 editor: markdown
 dateCreated: 2020-06-21T10:16:34.688Z
@@ -24,7 +24,7 @@ The bot Xenon is based around the idea of creating & loading backups of your dis
 
 # Slash commands
 
-Xenon is now avaliable using `/` on up to date discord clients (web, desktop and mobile). You can still use Xenon with `x!` for now, but slash commands are fully supported. **The docs have not been updated to show `/` as the prefix** as well as other minor changes that have not been updated yet, however, most things will work exactly the same.
+Xenon is now avaliable using `/` on up to date discord clients (web, desktop and mobile). You can still use Xenon with `x!` for now, but slash commands are fully supported. **The docs are slowly being migrated to `/` as the prefix** as well as other minor changes that have not been updated yet, however, most things will work exactly the same.
 
 Xenon Premium does not have this functionality yet, you will still need to use `x?` as the prefix.
 
