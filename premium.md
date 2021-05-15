@@ -2,7 +2,7 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2021-04-12T11:37:09.260Z
+date: 2021-05-15T12:15:28.560Z
 tags: info, premium
 editor: markdown
 dateCreated: 2020-06-23T12:58:31.594Z
@@ -55,10 +55,10 @@ You can find a detailed list of tiers and perks below.
   </tr>
   <tr>
     <td>Min Interval</td>
-    <td>24h</td>
-    <td>12h</td>
-    <td>8h</td>
-    <td>4h</td>
+    <td>24 hours</td>
+    <td>12 hours</td>
+    <td>8 hours</td>
+    <td>4 hours</td>
   </tr>
   <tr>
     <td>Interval Backups</td>
