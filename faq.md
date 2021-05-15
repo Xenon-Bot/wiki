@@ -2,7 +2,7 @@
 title: FAQ
 description: Frequently asked questions about Xenon.
 published: true
-date: 2021-05-15T12:14:12.601Z
+date: 2021-05-15T12:14:44.816Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-07-05T15:32:48.428Z
@@ -16,6 +16,13 @@ This is the FAQ for Xenon, if nothing on this page answers your question, come a
 
 ## Slash Commands do not show up for me!
 
+If the Slash Commands don't show up please make sure that you have invited Xenon using the following link:
+https://xenon.bot/invite
+
+Please also enable this setting in your discord settings:
+
+![slash-commands-trouble.png](/slash-commands-trouble.png)
+<br />
 
 
 ## How do I create a backup?
