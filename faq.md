@@ -2,7 +2,7 @@
 title: FAQ
 description: Frequently asked questions about Xenon.
 published: true
-date: 2021-04-28T21:59:38.163Z
+date: 2021-05-15T12:14:12.601Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-07-05T15:32:48.428Z
@@ -13,6 +13,10 @@ dateCreated: 2020-07-05T15:32:48.428Z
 This is the FAQ for Xenon, if nothing on this page answers your question, come and ask in the [support server!](https://xenon.bot/support)
 
 <br />
+
+## Slash Commands do not show up for me!
+
+
 
 ## How do I create a backup?
 
