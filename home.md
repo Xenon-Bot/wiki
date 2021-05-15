@@ -2,7 +2,7 @@
 title: Welcome!
 description: Welcome to the official documentation of Xenon!
 published: true
-date: 2021-04-28T22:01:42.428Z
+date: 2021-05-15T12:13:27.523Z
 tags: info
 editor: markdown
 dateCreated: 2020-06-21T10:16:34.688Z
@@ -37,6 +37,16 @@ Xenon Premium does not have this functionality yet, you will still need to use `
 <source src="https://wiki.xenon.bot/slash-commands-demo.mp4" type="video/mp4">
 </video>
 
+<br />
+
+## Troubleshooting
+
+If the Slash Commands don't show up please make sure that you have invited Xenon using the following link:
+https://xenon.bot/invite
+
+Please also enable this setting in your discord settings:
+
+![slash-commands-trouble.png](/slash-commands-trouble.png)
 <br />
 
 # Backups
