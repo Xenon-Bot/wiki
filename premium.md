@@ -2,7 +2,7 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2021-05-15T12:20:24.264Z
+date: 2021-05-15T12:20:47.452Z
 tags: info, premium
 editor: markdown
 dateCreated: 2020-06-23T12:58:31.594Z
@@ -109,6 +109,3 @@ If you have purchased Xenon Premium at https://patreon.com/merlinfuchs and haven
 - Connect your Discord account to Patreon at https://www.patreon.com/settings/apps
 	- Please disconnect and reconnect it if it was already connected before
 - Look for a channel called [#patrons-info](https://canary.discord.com/channels/410488579140354049/633228936893038593) on our Discord Server for further instructions
-
-<br />
-<br />
