@@ -1,8 +1,8 @@
 ---
-title: Welcome!
+title: Home
 description: Welcome to the official documentation of Xenon!
 published: true
-date: 2021-05-16T16:28:12.823Z
+date: 2021-05-16T16:34:53.540Z
 tags: info
 editor: markdown
 dateCreated: 2020-06-21T10:16:34.688Z
