@@ -2,15 +2,17 @@
 title: FAQ
 description: Frequently asked questions about Xenon.
 published: true
-date: 2021-05-15T12:14:44.816Z
+date: 2021-05-16T16:32:12.766Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-07-05T15:32:48.428Z
 ---
 
-# Xenons FAQ
+# Frequently Asked Questions
 
 This is the FAQ for Xenon, if nothing on this page answers your question, come and ask in the [support server!](https://xenon.bot/support)
+
+Also make sure to visit the other pages on the wiki to get detailed information about a specific feature.
 
 <br />
 
