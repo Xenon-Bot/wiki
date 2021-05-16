@@ -2,7 +2,7 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2021-05-15T12:20:47.452Z
+date: 2021-05-16T14:46:57.109Z
 tags: info, premium
 editor: markdown
 dateCreated: 2020-06-23T12:58:31.594Z
@@ -11,20 +11,31 @@ dateCreated: 2020-06-23T12:58:31.594Z
 # Xenon
 Xenon is the base version of the bot and is free for everyone. It has the most essential features to back up your server and server templates. If you want to save messages or sync information between multiple servers and channels, take a look at Xenon Premium.
 
-<br />
-
-# Xenon Premium
+Xenon and Xenon Premium share the same database. That means backups from Xenon can be used with Xenon Premium and vice versa. Xenon Premium extends the features of Xenon and adds some cool new additions. There is no need to keep Xenon on the server when using Xenon Premium. 
 
 > In addition to the exclusive features you also support the development of Xenon by buying Xenon Premium. The upkeep costs grow with the size of the bot. Without the support of our patrons, we wouldn't be able to keep Xenon running.
 {.is-info}
 
-Xenon and Xenon Premium share the same database. That means backups from Xenon can be used with Xenon Pro and vice versa. Xenon Premium extends the features of Xenon and adds some cool new additions. There is no need to keep Xenon on the server when using Xenon Premium. You can buy Xenon Premium [here](https://www.patreon.com/merlinfuchs).
-
-You can find a detailed list of tiers and perks below.
+<b>You can buy Xenon Premium [here](https://www.patreon.com/merlinfuchs).</b>
 
 <br />
 
-# Xenon Tiers
+# Perks
+
+- Saving and loading messages
+- Saving and loading bans
+- Saving and loading member data (nicknames & role assignments)
+- Syncing messages between channels and servers
+- Syncing bans between servers
+- Sync role assignments
+
+<br />
+
+You can find a detailed list of perks in the tier list below.
+
+<br />
+
+# Premium Tiers
 
 <br />
 
