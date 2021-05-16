@@ -2,7 +2,7 @@
 title: Welcome!
 description: Welcome to the official documentation of Xenon!
 published: true
-date: 2021-05-16T16:22:23.449Z
+date: 2021-05-16T16:23:18.631Z
 tags: info
 editor: markdown
 dateCreated: 2020-06-21T10:16:34.688Z
@@ -24,7 +24,7 @@ Xenon also allows you to create backups of your discord server and copy them. Th
 
 <br />
 
-<iframe max-width="560" max-height="315" src="https://www.youtube.com/embed/Z0JSyOLuCD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="90%" max-height="315" src="https://www.youtube.com/embed/Z0JSyOLuCD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br />
 
