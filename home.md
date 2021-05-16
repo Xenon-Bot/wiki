@@ -2,7 +2,7 @@
 title: Welcome!
 description: Welcome to the official documentation of Xenon!
 published: true
-date: 2021-05-16T16:14:59.843Z
+date: 2021-05-16T16:15:43.947Z
 tags: info
 editor: markdown
 dateCreated: 2020-06-21T10:16:34.688Z
@@ -69,4 +69,4 @@ https://xenon.bot/invite
 
 Please also enable this setting in your discord settings:
 
-<img src="/slash-commands-trouble.png" width="90%"></img>
+<img src="/slash-commands-trouble.png" width="90%" alt="Use slash commands and preview emojis, mentions, and markdown syntax as you type">
