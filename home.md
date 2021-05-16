@@ -2,7 +2,7 @@
 title: Welcome!
 description: Welcome to the official documentation of Xenon!
 published: true
-date: 2021-05-16T16:21:03.034Z
+date: 2021-05-16T16:21:25.437Z
 tags: info
 editor: markdown
 dateCreated: 2020-06-21T10:16:34.688Z
@@ -13,8 +13,6 @@ Xenon offers access to hundreds of free server templates to get you started on d
 
 Xenon also allows you to create backups of your discord server and copy them. These backups contain channels, roles, server settings and even messages, bans, nicknames and role assignments if you have [premium](/premium).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z0JSyOLuCD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 > If you like Xenon, an [upvote](https://top.gg/bot/416358583220043796/vote) would help us a lot! 
 {.is-success}
 
@@ -23,6 +21,10 @@ Xenon also allows you to create backups of your discord server and copy them. Th
 
 > If you need further help, join our [support server](https://xenon.bot/discord).
 {.is-info}
+
+<br />
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z0JSyOLuCD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br />
 
