@@ -2,11 +2,16 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2021-02-06T20:12:34.880Z
+date: 2021-05-17T13:29:32.841Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-06-24T14:40:55.477Z
 ---
+
+# Overview
+
+Backups are used to save or duplicate your server. Backups are linked to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
+Backups can contain channels, roles, server settings and even messages, bans, nicknames and role assignments if you have [premium](/premium).
 
 # Creating a backup
 Create a backup of your discord. After the bot created the backup, it will tell you the backup id. You can find a list of your backups with x!backup list
@@ -16,12 +21,12 @@ Create a backup of your discord. After the bot created the backup, it will tell 
 
 ## Syntax
 
-`x!backup create [chatlog]`
+`/backup create [message_count]`
 
 ## Arguments
 
 # Tabs {.tabset}
-## Chatlog
+## message_count
 
 The count of messages to save per channel. Default is the max amount for your tier.
 
@@ -41,24 +46,26 @@ You can find a list of your backups with `x!backup list`.
 
 ## Syntax
 
-`x!backup load <backup-id> [chatlog] [options...]`
+`/backup load <backup_id> [message_count] [options]`
 
 ## Arguments
 
 # Tabs {.tabset}
-## backup-id
+## backup_id
 
-The id of the backup you want to load. You get this after creating a backup or using `x!backup list`.
+The id of the backup you want to load. 
+
+You can get a list of your backups using `/backup list`.
 
 `required`
 
-## chatlog
+## message_count
 
-The count of messages to load per channel 
+The count of messages to load per channel. Default is the max amount for your tier.
 
 Only available for [premium](/premium) users!
 
-`max: 0 / 25 / 100 / 250` `default: 0` `optional`
+`max: 0 / 25 / 100 / 250` `default: 0 / 25 / 100 / 250` `optional`
 
 ## options
 
@@ -71,10 +78,10 @@ Only `settings`, `roles` and `channels` work for non-premium users.
 
 **Valid Arguments**: `settings members channels delete-channels roles delete-roles bans invite pins`
 
-**Example**: `x!backup load <backup-id> !* delete-roles roles` will only load roles
-**Example**: `x!backup load <backup-id> !delete-roles !channels` will load everything but not delete existing channels and roles
+**Example**: `/backup load backup_id: 434ATZPVLA options: !* delete-roles roles` will only load roles
+**Example**: `/backup load backup_id: 434ATZPVLA options: !delete-roles !channels` will load everything but not delete existing channels and roles
 
-`optional` `default: channels roles settings`
+`optional` `default: delete-channels channels delete-roles roles settings`
 
 <br />
 
@@ -82,23 +89,23 @@ Only `settings`, `roles` and `channels` work for non-premium users.
 
 You obviously need to create backup before you can use this command.
 
-You can find a list of your backups with `x!backup list`.
+You can get a list of your backups using `/backup list`.
 
 > Deleting a backup is irreversible! Be careful with this command.
 {.is-danger}
 
 ## Syntax
 
-`x!backup delete <backup-id>`
+`/backup delete <backup-id>`
 
 ## Arguments
 
 # Tabs {.tabset}
-## backup-id
+## backup_id
 
-The id of the backup you want to delete. You get this after creating a backup.
+The id of the backup you want to delete. 
 
-You can also use the guild id to delete the latest automated backup. 
+You can get a list of your backups using `/backup list`.
 
 `required`
 
@@ -106,31 +113,27 @@ You can also use the guild id to delete the latest automated backup.
 
 # Automated Backups / Interval
 
-The bot creates a backup of your guild in a certain interval. It overrides the old one every time it creates a new one. Different [premium tiers](https://wiki.xenon.bot/en/premium#xenon-tiers) can keep more than 1 interval backup.
+The bot can create a backup of your server in a certain interval. It overrides the old one every time it creates a new one. Different [premium tiers](https://wiki.xenon.bot/en/premium#xenon-tiers) can keep more than 1 interval backup per server.
 
-To find your interval backups you can use `x!backup list`. Look for the clock emoji next to the backup id.
+To find your interval backups you can use `/backup list`. Look for the clock emoji next to the backup id.
 
 ## Syntax
 
-`x!backup interval <interval...> [chatlog]`
+`/backup interval on <interval> [message_count]`
 
 ## Arguments
 
 # Tabs {.tabset}
 ## interval
 
-The time between every backup or "off".
+The time between every backup.
 
-Supported units: `hours(h)`, `days(d)`, `weeks(w)`
+[Premium](https://wiki.xenon.bot/en/premium#xenon-tiers) users can have this as low as 4h but free users have a minimum of 24 hours.
 
-[Premium](https://wiki.xenon.bot/en/premium#xenon-tiers) users can have this as low as 4h but free users have a minimum of 1 day.
+## message_count
 
-Examples: `1d`, `12h`
-
-## chatlog
-
-The count of messages to load per channel 
+The count of messages to save per channel. Default is the max amount for your tier.
 
 Only available for [premium](/premium) users!
 
-`max: 0 / 25 / 100 / 250` `default: 0` `optional`
+`max: 0 / 25 / 100 / 250` `default: 0 / 25 / 100 / 250` `optional`
