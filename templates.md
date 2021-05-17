@@ -2,14 +2,16 @@
 title: Templates
 description: Xenon gives you access to hundreds of free templates. In contrast to backups, templates are public and can be used by everyone.
 published: true
-date: 2021-01-12T12:31:30.076Z
+date: 2021-05-17T13:36:36.095Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-06-26T16:25:21.365Z
 ---
 
-# List of templates
-You can find a list of templates at [templates.xenon.bot](https://templates.xenon.bot). Most of them can be loaded using Xenon or the discord template feature. Some legace templates are considered internal and can only be loaded using Xenon.
+# Overview
+You can find a list of templates at [templates.xenon.bot](https://templates.xenon.bot). 
+Most of them can be loaded on existing servers using Xenon or can be used to create new servers using the discord template feature. 
+Some legacy templates are considered internal and can only be loaded using Xenon.
 
 <br />
 
@@ -21,14 +23,14 @@ You can also load any discord template in an **existing** server by supplying th
 
 ## Syntax
 
-`x!template load <template name/template URL> [options...]`
+`/template load <name_or_id> [options]`
 
 ## Arguments
 
 # Tabs {.tabset}
-## template name/link
+## name_or_id
 
-The name or link of the template you want to load.
+The name, id or link of the template you want to load.
 e.g. `starter`, `6p9d4EBbuYcM` or `https://discord.new/6p9d4EBbuYcM`
 
 `required`
@@ -40,12 +42,15 @@ A list of arguments, separated by a space. Putting a `!` in front of the argumen
 `*` enables all
 `!*` disables all
 
-**Valid Arguments**: `channels delete-channels roles delete-roles`
+**Valid Arguments**: `channels delete-channels roles delete-roles settings`
 
-**Example**: `x!backup load <backup-id> !* delete-roles roles` will only load roles
-**Example**: `x!backup load <backup-id> !delete-roles !channels` will load everything beside channels
+**Example**: `/template load name_or_id: r2uhQjNFKYHA options: !* delete-roles roles` will only load roles
+**Example**: `/template load name_or_id: r2uhQjNFKYHA options: !delete-roles !channels` will load everything beside channels
 
-<br />
+`optional` `default: delete-channels channels delete-roles roles settings`
+
+
+<br /><br />
 
 # Creating a template
 
