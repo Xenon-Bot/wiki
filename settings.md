@@ -2,7 +2,7 @@
 title: Settings
 description: 
 published: true
-date: 2021-05-17T13:40:18.840Z
+date: 2021-05-17T13:40:56.265Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-10-06T13:12:14.120Z
@@ -21,8 +21,6 @@ Use the permission settings to change who is able to create backups, syncs & cha
 ## level
 
 The permissions level that you want to set for this server.
-
-`options: from, to, both` `required`
 
 #### Admins can use all commands
 
