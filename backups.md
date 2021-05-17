@@ -2,7 +2,7 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2021-05-17T13:29:32.841Z
+date: 2021-05-17T13:30:19.810Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-06-24T14:40:55.477Z
@@ -17,7 +17,7 @@ Backups can contain channels, roles, server settings and even messages, bans, ni
 Create a backup of your discord. After the bot created the backup, it will tell you the backup id. You can find a list of your backups with x!backup list
 
 > By default Xenon does not save messages, nicknames or role assignments. This is only possible with Xenon Premium.
-{.is-warning}
+{.is-info}
 
 ## Syntax
 
@@ -42,7 +42,7 @@ Load a backup. You obviously need to create backup before you can use this comma
 You can find a list of your backups with `x!backup list`.
 
 > Loading a backup replaces all channels and roles in the discord. It does not kick the members.
-{.is-danger}
+{.is-warning}
 
 ## Syntax
 
@@ -92,7 +92,7 @@ You obviously need to create backup before you can use this command.
 You can get a list of your backups using `/backup list`.
 
 > Deleting a backup is irreversible! Be careful with this command.
-{.is-danger}
+{.is-warning}
 
 ## Syntax
 
