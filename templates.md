@@ -2,7 +2,7 @@
 title: Templates
 description: Xenon gives you access to hundreds of free templates. In contrast to backups, templates are public and can be used by everyone.
 published: true
-date: 2021-05-17T13:36:36.095Z
+date: 2021-05-17T13:36:52.116Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-06-26T16:25:21.365Z
