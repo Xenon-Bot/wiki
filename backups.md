@@ -2,7 +2,7 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2021-05-17T13:30:19.810Z
+date: 2021-05-17T13:30:48.378Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-06-24T14:40:55.477Z
@@ -34,7 +34,7 @@ Only available for [premium](/premium) users!
 
 `max: 0 / 25 / 100 / 250` `default: 0 / 25 / 100 / 250` `optional`
 
-<br />
+<br /><br />
 
 # Loading a backup
 Load a backup. You obviously need to create backup before you can use this command.
@@ -83,7 +83,7 @@ Only `settings`, `roles` and `channels` work for non-premium users.
 
 `optional` `default: delete-channels channels delete-roles roles settings`
 
-<br />
+<br /><br />
 
 # Deleting a backup
 
@@ -109,7 +109,7 @@ You can get a list of your backups using `/backup list`.
 
 `required`
 
-<br />
+<br /><br />
 
 # Automated Backups / Interval
 
