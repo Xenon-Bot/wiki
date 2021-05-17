@@ -2,14 +2,14 @@
 title: Settings
 description: 
 published: true
-date: 2021-05-17T13:39:57.284Z
+date: 2021-05-17T13:40:18.840Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-10-06T13:12:14.120Z
 ---
 
-# Permissions Settings
-Change who is able to create backups, syncs & chatlog and load backups, chatlogs & templates. This does not affect basic commands like `/ping`.
+# Overview
+Use the permission settings to change who is able to create backups, syncs & chatlog and load backups, chatlogs & templates. This does not affect basic commands like `/ping`.
 
 ## Syntax
 
