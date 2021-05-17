@@ -2,7 +2,7 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2021-05-17T13:32:00.003Z
+date: 2021-05-17T13:32:32.620Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-06-24T14:40:55.477Z
@@ -96,7 +96,7 @@ You can get a list of your backups using `/backup list`.
 
 ## Syntax
 
-`/backup delete <backup-id>`
+`/backup delete <backup_id>`
 
 ## Arguments
 
