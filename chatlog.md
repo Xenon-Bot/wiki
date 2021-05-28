@@ -2,7 +2,7 @@
 title: Chatlog
 description: Chatlogs are used to save the last X messages in one channel. Like backups, chatlogs are linked to the creator account and can't be loaded by someone else.
 published: true
-date: 2021-01-12T12:31:51.071Z
+date: 2021-05-28T15:34:32.880Z
 tags: premium, help
 editor: markdown
 dateCreated: 2020-06-28T13:39:51.956Z
@@ -13,66 +13,71 @@ dateCreated: 2020-06-28T13:39:51.956Z
 
 # Creating a chatlog
 
-Create a chatlog of your channel. After the bot created the chatlog, it will tell you the chatlog id. You can find a list of your chatlogs with `x?chatlog list`
+Create a chatlog of your channel. After the bot created the chatlog, it will tell you the chatlog id. You can find a list of your chatlogs with `/chatlog list`
 
 ## Syntax
 
-`x?chatlog create [count]`
+`/chatlog create [message_count] [before]`
 
 ## Arguments
 
 # Tabs {.tabset}
-## Count
-The count of messages to save per channel 
+## message_count
+The count of messages to save per channel. Default is the max amount for your tier.
 
-`max: 0 / 250 / 500 / 1000` `default: 250` `optional`
+`max: 0 / 250 / 500 / 1000` `default: 0 / 250 / 500 / 1000` `optional`
+
+## before
+A message id where to start fetching messages. Can be used to concatenate chatlogs.
+
+`optional`
 
 <br />
 
 # Loading a chatlog
 
 Load a chatlog. You obviously need to create chatlog before you can use this command.
-You can find a list of your backups with `x?chatlog list`.
+You can find a list of your backups with `/chatlog list`.
 
 > Loading a chatlog can take a long time. The bot might seem to pause multiple times during the process, this is normal.
 {.is-info}
 
 ## Syntax
 
-`x?chatlog load <chatlog-id> [count]`
+`/chatlog load <chatlog_id> [message_count]`
 
 ## Arguments
 
 # Tabs {.tabset}
-## chatlog-id
+## chatlog_id
 The id of the chatlog you want to load. You get this after creating a chatlog.
 
 `required`
 
-## count
+## message_count
 
-The count of messages to load from the chatlog 
+The count of messages to load from the chatlog. Default is the max amount for your tier.
 
-`max: 0 / 250 / 500 / 1000` `default: 250` `optional`
+`max: 0 / 250 / 500 / 1000` `default: 0 / 250 / 500 / 1000` `optional`
 
 <br />
 
 # Deleting a chatlog
 
 You obviously need to create chatlog before you can use this command.
-You can find a list of your backups with `x?chatlog list`.
+You can find a list of your backups with `/chatlog list`.
 
 > Deleting a chatlog is irreversible! Be careful with this command.
 {.is-danger}
 
 ## Syntax
 
-`x?chatlog delete <chatlog-id>`
+`/chatlog delete <chatlog_id>`
 
 ## Arguments
 
 # Tabs {.tabset}
-## backup-id
+## backup_id
 
 The id of the chatlog you want to delete. You get this after creating a chatlog.
 
