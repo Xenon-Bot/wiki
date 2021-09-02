@@ -2,7 +2,7 @@
 title: Terms Of Service
 description: The following applies to usage of the Xenon (including the premium versions) Discord bot: (referred to as "Xenon")
 published: true
-date: 2021-02-11T20:17:51.523Z
+date: 2021-09-02T11:57:35.332Z
 tags: info
 editor: markdown
 dateCreated: 2020-06-23T12:00:05.263Z
@@ -55,3 +55,5 @@ To operate Xenon and in specific the Backup feature we save some information of 
 - Channel names, topics, permission overrides and message history.
 - Role names, permissions and assignments.
 - Server settings and banned members.
+
+We may also store anonymized information about you including your username, discriminator and public flags (badges). These information are only used for analytics and can not be tracked back to you.
