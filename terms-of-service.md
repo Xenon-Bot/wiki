@@ -15,7 +15,7 @@ If you do not agree with any of these terms, you are prohibited from using or ad
 <br />
 
 # Disclaimer
-You are strictly prohibited to use Xenon against the ToS of discord or for illegal purposes. We are doing our best to prevent these activities, while trying to provide the best user experience as possible. If you find people or communities using Xenon against the ToS of discord or even for illegal activities, please send us an email to `contact (at) xenon (dot) bot`.
+You are strictly prohibited to use Xenon against the ToS of discord or for illegal purposes. We are doing our best to prevent these activities, while trying to provide the best user experience as possible. If you find people or communities using Xenon against the ToS of discord or even for illegal activities, please send us an email to `contact@xenon.bot`.
 
 <br />
 
