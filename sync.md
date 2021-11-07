@@ -2,7 +2,7 @@
 title: Sync
 description: Sync messages between different channels and bans between different servers. It's possible to sync in one direction or in both.
 published: true
-date: 2021-01-12T12:32:09.536Z
+date: 2021-11-07T21:38:58.476Z
 tags: premium, help
 editor: markdown
 dateCreated: 2020-06-28T13:46:53.625Z
@@ -12,11 +12,11 @@ dateCreated: 2020-06-28T13:46:53.625Z
 {.is-info}
 
 # Creating a message sync
-Create a message sync between two channels in one or two directions. You can find a list of your syncs with `x?sync list`
+Create a message sync between two channels in one or two directions. You can find a list of your syncs with `/sync list`
 
 ## Syntax
 
-`x?sync messages <direction> <channel>`
+`/sync messages <direction> <channel>`
 
 ## Arguments
 
@@ -37,11 +37,11 @@ Either the channel id or mention of the other channel
 
 # Creating a ban sync
 
-Create a ban sync between two guilds in one or two directions. You can find a list of your syncs with x?sync list
+Create a ban sync between two guilds in one or two directions. You can find a list of your syncs with /sync list
 
 ## Syntax
 
-`x?sync bans <direction> <guild-id>`
+`/sync bans <direction> <guild-id>`
 
 # Tabs {.tabset}
 ## direciton
@@ -62,14 +62,14 @@ The id of the other guild. You can find out how to get a guild id [here](https:/
 
 You obviously need to create sync before you can use this command.
 
-You can find a list of your syncs with `x?sync list`.
+You can find a list of your syncs with `/sync list`.
 
 > Deleting a sync is irreversible! Be careful with this command.
 {.is-danger}
 
 ## Syntax
 
-`x?sync delete <sync-id>`
+`/sync delete <sync-id>`
 
 ## Arguments
 
