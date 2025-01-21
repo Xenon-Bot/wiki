@@ -2,7 +2,7 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2021-11-08T18:18:58.045Z
+date: 2025-01-21T22:58:26.226Z
 tags: info, premium
 editor: markdown
 dateCreated: 2020-06-23T12:58:31.594Z
@@ -13,10 +13,10 @@ Xenon is the base version of the bot and is free for everyone. It has the most e
 
 Xenon and Xenon Premium share the same database. That means backups from Xenon can be used with Xenon Premium and vice versa. Xenon Premium extends the features of Xenon and adds some cool new additions. There is no need to keep Xenon on the server when using Xenon Premium. 
 
-> In addition to the exclusive features you also support the development of Xenon by buying Xenon Premium. The upkeep costs grow with the size of the bot. Without the support of our patrons, we wouldn't be able to keep Xenon running.
+> In addition to the exclusive features you also support the development of Xenon by buying Xenon Premium. The upkeep costs grow with the size of the bot. Without the support of our premium users, we wouldn't be able to keep Xenon running.
 {.is-info}
 
-<b>You can buy Xenon Premium [here](https://www.patreon.com/merlinfuchs).</b>
+<b>You can buy Xenon Premium on Patreon [here](https://www.patreon.com/merlinfuchs), or directly within discord [here](https://discord.com/application-directory/416358583220043796/store).</b>
 
 <br />
 
@@ -119,4 +119,4 @@ If you have purchased Xenon Premium at https://patreon.com/merlinfuchs and haven
 - Join our [Discord Server](https://xenon.bot/discord)
 - Connect your Discord account to Patreon at https://www.patreon.com/settings/apps
 	- Please disconnect and reconnect it if it was already connected before
-- Look for a channel called [#patrons-info](https://canary.discord.com/channels/410488579140354049/633228936893038593) on our Discord Server for further instructions
+- Look for a channel called [#premium-info](https://discord.com/channels/410488579140354049/633228936893038593) on our Discord Server for further instructions
