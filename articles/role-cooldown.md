@@ -2,7 +2,7 @@
 title: Role Creation Cooldown
 description: Discord limits the number of roles a bot can create in a time period of 48 hours
 published: true
-date: 2025-06-09T12:46:30.911Z
+date: 2025-06-09T12:47:08.944Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-09T12:44:43.753Z
