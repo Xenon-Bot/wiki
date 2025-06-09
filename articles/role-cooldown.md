@@ -1,8 +1,8 @@
 ---
 title: Role Creation Cooldown
-description: You can ONLY load 250 Roles OR 500 Channels in 48 hours
+description: Discord limits the number of roles a bot can create in a time period of 48 hours
 published: true
-date: 2025-06-09T12:45:51.830Z
+date: 2025-06-09T12:46:30.911Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-09T12:44:43.753Z
