@@ -2,7 +2,7 @@
 title: Role Creation Cooldown
 description: Discord limits the number of roles a bot can create in a time period of 48 hours
 published: true
-date: 2025-06-09T12:47:08.944Z
+date: 2025-06-09T13:26:17.508Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-09T12:44:43.753Z
@@ -17,7 +17,7 @@ dateCreated: 2025-06-09T12:44:43.753Z
 
 ## You can do EITHER of the following:
 - Wait for 48 HOURS (best option)
-- Load WITHOUT CREATING ROLES [ /backup load backup id: [BACKUP-ID-HERE] options: !delete_roles !roles ]
+- Cancel (`/backup cancel`) and load WITHOUT CREATING ROLES `/backup load backup id: [BACKUP-ID-HERE] options: !delete_roles !roles`
 
 **CANCELING YOUR BACKUP, KICKING THE BOT WILL NOT LIFT THE LIMIT.**
 repeated loading of backups will get you quickly to the limit. eg: you can only load 5 backups if the server has 50 roles
