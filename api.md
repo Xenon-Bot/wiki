@@ -12,7 +12,7 @@ dateCreated: 2020-08-29T09:28:00.964Z
 The API can be used to make existing or new services work together with Xenon. The goal of providing this API to other developers is to make the user experience as seamless as possible.
 This API is at a very early stage and all endpoints are subject to change. (We will notify you before a breaking change happens)
 
-API access is currently only given to very few people. Send `Merlin#1337` a DM if you are interested in getting access.
+API access is currently only given to very few people. Send `merlin.gg` a DM if you are interested in getting access.
 
 Tokens have been granted to:
 - [Wick](https://wickbot.com/)
