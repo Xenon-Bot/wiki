@@ -2,7 +2,7 @@
 title: API
 description: Build custom features for Xenon and integrate it into your service
 published: true
-date: 2021-01-12T12:29:18.627Z
+date: 2025-08-16T12:53:16.800Z
 tags: info
 editor: markdown
 dateCreated: 2020-08-29T09:28:00.964Z
@@ -39,7 +39,7 @@ The JSON body contains a `retry_after` key which represents the number of millis
 Some endpoints cache the response to increase performance. Those endpoints will have the `Cache-Control` and `Expiration` headers set. You can use them to tell how long you can cache the data locally and reduce the load on our API.
 
 ## Authentication
-Most endpoints require authentication using an internal bot token. These tokens are currently manually granted to very few people. Send `Merlin#1337` a DM if you are interested in getting access. 
+Most endpoints require authentication using an internal bot token. These tokens are currently manually granted to very few people. Send `Merlin.gg` a DM if you are interested in getting access. 
 
 The API looks for the token in the `Authorization` header. Unlike the discord-api, you don't have to prefix the token with "Bot".
 
