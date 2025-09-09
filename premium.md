@@ -2,7 +2,7 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2025-09-09T22:19:54.085Z
+date: 2025-09-09T22:20:35.699Z
 tags: info, premium
 editor: markdown
 dateCreated: 2020-06-23T12:58:31.594Z
@@ -54,9 +54,9 @@ You can find a detailed list of perks in the tier list below.
   <tr>
     <td>Price</td>
     <td>free</td>
-    <td><a href="https://www.patreon.com/join/merlinfuchs/checkout?rid=4409325">4.99$ / month</a></td>
-    <td><a href="https://www.patreon.com/join/merlinfuchs/checkout?rid=4837411">9.99$ / month</a></td>
-    <td><a href="https://www.patreon.com/join/merlinfuchs/checkout?rid=3820460">14.99$ / month</a></td>
+    <td><a href="https://xenon.bot/premium">$5.99 / month</a></td>
+    <td><a href="https://xenon.bot/premium">$10.99 / month</a></td>
+    <td><a href="https://xenon.bot/premium">$15.99 / month</a></td>
   </tr>
   <tr>
     <td>Max Backups</td>
