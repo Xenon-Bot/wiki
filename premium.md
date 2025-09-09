@@ -2,7 +2,7 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2025-09-09T22:18:58.841Z
+date: 2025-09-09T22:19:54.085Z
 tags: info, premium
 editor: markdown
 dateCreated: 2020-06-23T12:58:31.594Z
@@ -85,6 +85,20 @@ You can find a detailed list of perks in the tier list below.
     <td>50 / channel</td>
     <td>100 / channel</td>
     <td>250 / channel</td>
+  </tr>
+  <tr>
+    <td>Backup threads & forum posts</td>
+    <td>no</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <td>Backup assigned roles & nicknames</td>
+    <td>no</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
   </tr>
   <tr>
     <td>Chatlog messages</td>
