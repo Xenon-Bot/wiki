@@ -2,7 +2,7 @@
 title: FAQ
 description: Frequently asked questions about Xenon.
 published: true
-date: 2021-05-16T16:32:12.766Z
+date: 2025-09-11T13:36:18.799Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-07-05T15:32:48.428Z
@@ -63,10 +63,12 @@ You can **search on the [templates site](https://templates.xenon.bot)** to find 
 
 <br />
 
-## I donated or bought Xenon pro, but I did not get a role?
+## I bought Xenon Premium, but I did not get a role?
 
-You need to **connect your discord account** to patreon in the [settings tab.](https://www.patreon.com/settings/apps) If you already connected it, try to disconnect and reconnect it.
+If you have subscribed through Patreon you need to **connect your discord account** to Patreon in the [settings tab.](https://www.patreon.com/settings/apps) If you already connected it, try to disconnect and reconnect it.
 
-Thanks for your donation!
+If you have subscribed through Discord or the website please reach out to `contact@xenon.bot`.
+
+Thanks for supporting Xenon!
 
 <br />
