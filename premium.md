@@ -2,7 +2,7 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2025-09-09T22:21:33.881Z
+date: 2025-09-11T13:14:50.771Z
 tags: info, premium
 editor: markdown
 dateCreated: 2020-06-23T12:58:31.594Z
@@ -16,7 +16,7 @@ Xenon and Xenon Premium share the same database. That means backups from Xenon c
 > In addition to the exclusive features you also support the development of Xenon by buying Xenon Premium. The upkeep costs grow with the size of the bot. Without the support of our premium users, we wouldn't be able to keep Xenon running.
 {.is-info}
 
-<b>You can buy Xenon Premium on Patreon [here](https://www.patreon.com/merlinfuchs), or directly within discord [here](https://discord.com/application-directory/416358583220043796/store).</b>
+<b>You can buy Xenon Premium on [here](https://xenon.bot/premium)!.</b>
 
 <br />
 
