@@ -2,25 +2,20 @@
 title: Whitelabel
 description: 
 published: true
-date: 2025-09-13T17:48:56.916Z
+date: 2025-09-13T17:49:38.923Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-13T17:39:58.654Z
 ---
 
-# Whitelabel
-
-With [Xenon Premium](/en/premium) you can customize the appearance of the bot in your server. This includes the display name and icon.
-
-
-> All chatlog commands are only available for [premium](/premium) users.
+> Customizing the appearance of the bot is only available for [premium](/premium) users.
 {.is-info}
 
-## Setting up Whitelabel
+# Setting up Whitelabel
 
 Create a chatlog of your channel. After the bot created the chatlog, it will tell you the chatlog id. You can find a list of your chatlogs with `/chatlog list`
 
-### Syntax
+## Syntax
 
 `/chatlog create [message_count] [before]`
 
