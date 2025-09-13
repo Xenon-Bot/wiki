@@ -2,7 +2,7 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2025-09-13T17:46:27.099Z
+date: 2025-09-13T17:47:34.040Z
 tags: info, premium
 editor: markdown
 dateCreated: 2020-06-23T12:58:31.594Z
@@ -29,7 +29,7 @@ Xenon and Xenon Premium share the same database. That means backups from Xenon c
 - Syncing messages between channels and servers
 - Syncing bans between servers
 - Sync role assignments
-- Customize the name and icon of the bot in your server ([Whitelabel](/whitelabel))
+- Customize the name and icon of the bot in your server ([Whitelabel](/en/whitelabel))
 
 <br />
 
