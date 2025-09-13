@@ -1,8 +1,8 @@
 ---
 title: Whitelabel
-description: 
+description: Whitelabel lets you customize the display name and icon of your bot in each server
 published: true
-date: 2025-09-13T17:49:38.923Z
+date: 2025-09-13T17:50:17.195Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-13T17:39:58.654Z
