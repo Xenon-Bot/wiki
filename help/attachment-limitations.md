@@ -2,7 +2,7 @@
 title: Message Attachment Limitations
 description: Limitations to backing up and restoring message attachments / attached files
 published: true
-date: 2025-09-14T23:48:46.637Z
+date: 2025-09-14T23:49:10.065Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-14T23:44:24.325Z
@@ -11,7 +11,7 @@ dateCreated: 2025-09-14T23:44:24.325Z
 > Backing up and restoring message attachments is only availabel to [premium](/premium) users.
 {.is-info}
 
-When backing up and restoring message attachments there are some limitations enforced by Discord. This is because Xenon can't actually store the attachments, it only stores a link to the attachment.
+When backing up and restoring message attachments there are some limitations enforced by Discord. This is because Xenon can't actually store the files, it only stores a link to each attachment.
 
 Message attachments include any images, videos, or other files that are sent in a Discord message.
 
