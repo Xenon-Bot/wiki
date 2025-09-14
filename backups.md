@@ -2,7 +2,7 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2021-05-17T13:32:32.620Z
+date: 2025-09-14T23:51:11.222Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-06-24T14:40:55.477Z
@@ -40,6 +40,8 @@ Only available for [premium](/premium) users!
 Load a backup. You obviously need to create backup before you can use this command.
 
 You can find a list of your backups with `/backup list`.
+
+Please read [this](/en/help/attachment-limitations) if you are having issues loading messages with attached files.
 
 > Loading a backup replaces all channels and roles in the discord. It does not kick the members.
 {.is-warning}
