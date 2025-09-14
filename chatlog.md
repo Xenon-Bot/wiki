@@ -2,7 +2,7 @@
 title: Chatlog
 description: Chatlogs are used to save the last X messages in one channel. Like backups, chatlogs are linked to the creator account and can't be loaded by someone else.
 published: true
-date: 2021-05-28T15:34:32.880Z
+date: 2025-09-14T23:50:29.019Z
 tags: premium, help
 editor: markdown
 dateCreated: 2020-06-28T13:39:51.956Z
@@ -38,6 +38,8 @@ A message id where to start fetching messages. Can be used to concatenate chatlo
 
 Load a chatlog. You obviously need to create chatlog before you can use this command.
 You can find a list of your backups with `/chatlog list`.
+
+Please read [this](/en/help/attachment-limitations) if you are having issues loading messages with attached files.
 
 > Loading a chatlog can take a long time. The bot might seem to pause multiple times during the process, this is normal.
 {.is-info}
