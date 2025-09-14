@@ -2,7 +2,7 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2025-09-13T17:47:34.040Z
+date: 2025-09-14T23:57:43.139Z
 tags: info, premium
 editor: markdown
 dateCreated: 2020-06-23T12:58:31.594Z
@@ -22,7 +22,7 @@ Xenon and Xenon Premium share the same database. That means backups from Xenon c
 
 # Premium Perks
 
-- Saving and loading messages
+- Saving and loading messages [*](/en/help/attachment-limitations)
 - Saving and loading bans
 - Saving and loading member data (nicknames & role assignments)
 - Saving and loading threads & forum posts (beta)
