@@ -2,7 +2,7 @@
 title: Premium
 description: There are four different Tiers of Xenon: Xenon, Premium 1, Premium 2 and Premium 3
 published: true
-date: 2025-09-14T23:57:43.139Z
+date: 2025-09-23T14:59:49.119Z
 tags: info, premium
 editor: markdown
 dateCreated: 2020-06-23T12:58:31.594Z
@@ -126,7 +126,7 @@ You can find a detailed list of perks in the tier list below.
     <td>Customize name & icon of the bot</td>
     <td>no</td>
     <td>no</td>
-    <td>no</td>
+    <td>yes</td>
     <td>yes</td>
   </tr>
 </tbody>
