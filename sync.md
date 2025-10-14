@@ -2,7 +2,7 @@
 title: Sync
 description: Sync messages between different channels and bans between different servers. It's possible to sync in one direction or in both.
 published: true
-date: 2021-11-07T21:38:58.476Z
+date: 2025-10-14T13:39:48.624Z
 tags: premium, help
 editor: markdown
 dateCreated: 2020-06-28T13:46:53.625Z
@@ -53,6 +53,43 @@ The direction for the sync. Either "from" to sync bans from the other guild to y
 ## guild-id
 
 The id of the other guild. You can find out how to get a guild id [here](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
+
+`required`
+
+<br />
+
+# Creating a role sync
+
+Create a role sync between two roles in one or two directions. This way all members that have role A will also get role B or vice versa. Role A has to be on the server where you run the command, role B can also be on a different server.
+
+You can find a list of your syncs with /sync list
+
+## Syntax
+
+`/sync roles <role_a> <direction> <server_b> <role_b>`
+
+# Tabs {.tabset}
+## role_a
+
+The id of role A. You can find out how to get a role id [here](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
+
+`required`
+
+## direciton
+
+The direction for the sync. Either "from" to sync assigned roles from the role B to role A, "to" to sync assigned roles from role A to the role B or "both" for both directions.
+
+`options: from, to, both` `required`
+
+## server_b
+
+The id of the server that role B belongs to. You can find out how to get a guild id [here](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
+
+`required`
+
+## role_b
+
+The id of role B. You can find out how to get a role id [here](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
 
 `required`
 
