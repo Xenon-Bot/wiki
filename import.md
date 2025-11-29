@@ -2,7 +2,7 @@
 title: Import
 description: Import data like channels, roles, emojis, stickers, etc. from JSON files
 published: true
-date: 2025-11-29T15:42:25.166Z
+date: 2025-11-29T15:43:49.425Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-29T15:36:59.530Z
@@ -13,7 +13,7 @@ dateCreated: 2025-11-29T15:36:59.530Z
 
 # Import Server
 
-Customize the appearance of the bot in your server. This includes a custom display name and icon.
+Import the server settings, channels, roles, emojis, and stickers from the JSON file.
 
 ## Syntax
 
