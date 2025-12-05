@@ -2,7 +2,7 @@
 title: Import
 description: Import data like channels, roles, emojis, stickers, etc. from JSON files
 published: true
-date: 2025-12-05T15:06:07.902Z
+date: 2025-12-05T15:08:05.806Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-29T15:36:59.530Z
@@ -14,6 +14,8 @@ dateCreated: 2025-11-29T15:36:59.530Z
 # Import Server
 
 Import the server settings, channels, and roles from the JSON file. Usually you get the JSON file after running `/export guild`.
+
+You can also use AI tools like ChatGPT or Claude to generate a JSON file. You can find some tips below.
 
 ## Syntax
 
