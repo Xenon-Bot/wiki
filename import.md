@@ -2,7 +2,7 @@
 title: Import
 description: Import data like channels, roles, emojis, stickers, etc. from JSON files
 published: true
-date: 2025-12-05T14:46:10.813Z
+date: 2025-12-05T14:54:19.569Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-29T15:36:59.530Z
