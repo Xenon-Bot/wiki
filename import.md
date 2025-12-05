@@ -2,7 +2,7 @@
 title: Import
 description: Import data like channels, roles, emojis, stickers, etc. from JSON files
 published: true
-date: 2025-12-05T15:03:14.667Z
+date: 2025-12-05T15:05:15.372Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-29T15:36:59.530Z
@@ -30,7 +30,7 @@ If you are using AI to generate the JSON file, make sure to explicitly tell it t
 Example prompt:
 ```
 Can you generate me the JSON code for a Discord server about GTA roleplay? 
-Please follow the official Discord API specification for guild template data.
+Please follow the official Discord API specification for guild data.
 ```
 
 **Files that don't follow the right format can't be imported and our team is not responsible for fixing them for you.**
