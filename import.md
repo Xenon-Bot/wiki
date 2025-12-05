@@ -2,7 +2,7 @@
 title: Import
 description: Import data like channels, roles, emojis, stickers, etc. from JSON files
 published: true
-date: 2025-11-29T21:29:35.370Z
+date: 2025-12-05T14:46:10.813Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-29T15:36:59.530Z
@@ -24,5 +24,9 @@ Import the server settings, channels, and roles from the JSON file. Usually you 
 # Tabs {.tabset}
 ## json_file
 The JSON file containing the server data. This must follow the format [defined by Discord](https://discord.com/developers/docs/resources/guild#guild-object).
+
+If you are using AI to generate the JSON file, make sure to explicitly tell it to follow the official Discord API format.
+
+**Files that don't follow the right format can't be imported and our team is not responsible for fixing them for you.**
 
 <br />
