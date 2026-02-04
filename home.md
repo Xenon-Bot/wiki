@@ -26,7 +26,7 @@ Xenon also allows you to create backups of your discord server and copy them. Th
 
 <div style="max-width: 650px">
   <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;"> 
-    <iframe src="https://www.youtube.com/embed/Z0JSyOLuCD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"></iframe>
+    <iframe src="https://www.youtube.com/embed/Z0JSyOLuCD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%" referrerpolicy="strict-origin-when-cross-origin"></iframe>
   </div>
 </div>
 
