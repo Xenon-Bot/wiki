@@ -2,7 +2,7 @@
 title: Backups
 description: Backups are used to save and duplicate your server. Backups are limited to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
 published: true
-date: 2025-09-14T23:51:11.222Z
+date: 2026-02-04T14:49:27.380Z
 tags: xenon, premium, help
 editor: markdown
 dateCreated: 2020-06-24T14:40:55.477Z
@@ -11,7 +11,7 @@ dateCreated: 2020-06-24T14:40:55.477Z
 # Overview
 
 Backups are used to save or duplicate your server. Backups are linked to the user that created it, but not limited to a server. That means you can use backups to move, or duplicate a server.
-Backups can contain channels, roles, server settings and even messages, bans, nicknames and role assignments if you have [premium](/premium).
+Backups can contain channels, roles, server settings and even threads, forum posts, messages, bans, nicknames and role assignments if you have [premium](/premium).
 
 # Creating a backup
 Create a backup of your discord. After the bot created the backup, it will tell you the backup id. You can find a list of your previously created backups with `/backup list`.
